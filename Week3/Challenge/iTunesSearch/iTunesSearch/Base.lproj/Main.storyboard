@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kAU-iy-66b">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--iTunes Search-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iTunesSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eCZ-eB-6KW">
+                                <rect key="frame" x="20" y="182" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qc3-4v-1zI">
+                                <rect key="frame" x="276" y="228" width="48" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcl-qt-Saf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUC-jg-SBg">
+                                <rect key="frame" x="20" y="343" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eCZ-eB-6KW" firstAttribute="leading" secondItem="RUC-jg-SBg" secondAttribute="leading" id="0v2-Dp-ywV"/>
+                            <constraint firstItem="eCZ-eB-6KW" firstAttribute="trailing" secondItem="RUC-jg-SBg" secondAttribute="trailing" id="3bX-is-Sap"/>
+                            <constraint firstItem="Qc3-4v-1zI" firstAttribute="top" secondItem="eCZ-eB-6KW" secondAttribute="bottom" constant="16" id="D3b-TX-Gha"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RUC-jg-SBg" secondAttribute="bottom" constant="236" id="EMp-08-pGs"/>
+                            <constraint firstItem="eCZ-eB-6KW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ETb-uU-gTl"/>
+                            <constraint firstItem="eCZ-eB-6KW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="TR1-q6-Ece"/>
+                            <constraint firstItem="Qc3-4v-1zI" firstAttribute="centerX" secondItem="eCZ-eB-6KW" secondAttribute="centerX" id="u19-6F-UvO"/>
+                            <constraint firstItem="RUC-jg-SBg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xd3-Uj-3xg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="iTunes Search" id="QQs-Lo-BzQ"/>
+                    <connections>
+                        <outlet property="firstResultLabel" destination="RUC-jg-SBg" id="oku-dg-zsp"/>
+                        <outlet property="searchTextField" destination="eCZ-eB-6KW" id="Bpl-dt-dhi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1092" y="313"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VhF-Db-lt7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kAU-iy-66b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tmn-LP-RuL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xns-6n-fBM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMr-YC-KeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="313"/>
+        </scene>
+    </scenes>
+</document>

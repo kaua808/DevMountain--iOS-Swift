@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4DC1AD11CAAD0D100DBE530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1AD01CAAD0D100DBE530 /* AppDelegate.swift */; };
+		C4DC1AD31CAAD0D100DBE530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1AD21CAAD0D100DBE530 /* ViewController.swift */; };
+		C4DC1AD61CAAD0D100DBE530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC1AD41CAAD0D100DBE530 /* Main.storyboard */; };
+		C4DC1AD81CAAD0D100DBE530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DC1AD71CAAD0D100DBE530 /* Assets.xcassets */; };
+		C4DC1ADB1CAAD0D100DBE530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC1AD91CAAD0D100DBE530 /* LaunchScreen.storyboard */; };
+		C4DC1AE61CAAD0D100DBE530 /* DeckOfCardStretchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1AE51CAAD0D100DBE530 /* DeckOfCardStretchTests.swift */; };
+		C4DC1AF11CAAD0D100DBE530 /* DeckOfCardStretchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1AF01CAAD0D100DBE530 /* DeckOfCardStretchUITests.swift */; };
+		C4DC1AFF1CAAD0EF00DBE530 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1AFE1CAAD0EF00DBE530 /* NetworkController.swift */; };
+		C4DC1B011CAAD37F00DBE530 /* DeckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1B001CAAD37F00DBE530 /* DeckController.swift */; };
+		C4DC1B031CAAD74A00DBE530 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1B021CAAD74A00DBE530 /* Card.swift */; };
+		C4DC1B051CAADDAE00DBE530 /* DeckCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1B041CAADDAE00DBE530 /* DeckCollectionViewController.swift */; };
+		C4DC1B071CAADDED00DBE530 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC1B061CAADDED00DBE530 /* CardCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4DC1AE21CAAD0D100DBE530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DC1AC51CAAD0D100DBE530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DC1ACC1CAAD0D100DBE530;
+			remoteInfo = DeckOfCardStretch;
+		};
+		C4DC1AED1CAAD0D100DBE530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DC1AC51CAAD0D100DBE530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DC1ACC1CAAD0D100DBE530;
+			remoteInfo = DeckOfCardStretch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4DC1ACD1CAAD0D100DBE530 /* DeckOfCardStretch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfCardStretch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC1AD01CAAD0D100DBE530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4DC1AD21CAAD0D100DBE530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4DC1AD51CAAD0D100DBE530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4DC1AD71CAAD0D100DBE530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4DC1ADA1CAAD0D100DBE530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4DC1ADC1CAAD0D100DBE530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC1AE11CAAD0D100DBE530 /* DeckOfCardStretchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckOfCardStretchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC1AE51CAAD0D100DBE530 /* DeckOfCardStretchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardStretchTests.swift; sourceTree = "<group>"; };
+		C4DC1AE71CAAD0D100DBE530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC1AEC1CAAD0D100DBE530 /* DeckOfCardStretchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckOfCardStretchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC1AF01CAAD0D100DBE530 /* DeckOfCardStretchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardStretchUITests.swift; sourceTree = "<group>"; };
+		C4DC1AF21CAAD0D100DBE530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DC1AFE1CAAD0EF00DBE530 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		C4DC1B001CAAD37F00DBE530 /* DeckController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckController.swift; sourceTree = "<group>"; };
+		C4DC1B021CAAD74A00DBE530 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C4DC1B041CAADDAE00DBE530 /* DeckCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckCollectionViewController.swift; sourceTree = "<group>"; };
+		C4DC1B061CAADDED00DBE530 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DC1ACA1CAAD0D100DBE530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1ADE1CAAD0D100DBE530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1AE91CAAD0D100DBE530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4DC1AC41CAAD0D100DBE530 = {
+			isa = PBXGroup;
+			children = (
+				C4DC1ACF1CAAD0D100DBE530 /* DeckOfCardStretch */,
+				C4DC1AE41CAAD0D100DBE530 /* DeckOfCardStretchTests */,
+				C4DC1AEF1CAAD0D100DBE530 /* DeckOfCardStretchUITests */,
+				C4DC1ACE1CAAD0D100DBE530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DC1ACE1CAAD0D100DBE530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC1ACD1CAAD0D100DBE530 /* DeckOfCardStretch.app */,
+				C4DC1AE11CAAD0D100DBE530 /* DeckOfCardStretchTests.xctest */,
+				C4DC1AEC1CAAD0D100DBE530 /* DeckOfCardStretchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DC1ACF1CAAD0D100DBE530 /* DeckOfCardStretch */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC1AD01CAAD0D100DBE530 /* AppDelegate.swift */,
+				C4DC1AD21CAAD0D100DBE530 /* ViewController.swift */,
+				C4DC1B001CAAD37F00DBE530 /* DeckController.swift */,
+				C4DC1B021CAAD74A00DBE530 /* Card.swift */,
+				C4DC1AFE1CAAD0EF00DBE530 /* NetworkController.swift */,
+				C4DC1AD41CAAD0D100DBE530 /* Main.storyboard */,
+				C4DC1B041CAADDAE00DBE530 /* DeckCollectionViewController.swift */,
+				C4DC1B061CAADDED00DBE530 /* CardCollectionViewCell.swift */,
+				C4DC1AD71CAAD0D100DBE530 /* Assets.xcassets */,
+				C4DC1AD91CAAD0D100DBE530 /* LaunchScreen.storyboard */,
+				C4DC1ADC1CAAD0D100DBE530 /* Info.plist */,
+			);
+			path = DeckOfCardStretch;
+			sourceTree = "<group>";
+		};
+		C4DC1AE41CAAD0D100DBE530 /* DeckOfCardStretchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC1AE51CAAD0D100DBE530 /* DeckOfCardStretchTests.swift */,
+				C4DC1AE71CAAD0D100DBE530 /* Info.plist */,
+			);
+			path = DeckOfCardStretchTests;
+			sourceTree = "<group>";
+		};
+		C4DC1AEF1CAAD0D100DBE530 /* DeckOfCardStretchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC1AF01CAAD0D100DBE530 /* DeckOfCardStretchUITests.swift */,
+				C4DC1AF21CAAD0D100DBE530 /* Info.plist */,
+			);
+			path = DeckOfCardStretchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DC1ACC1CAAD0D100DBE530 /* DeckOfCardStretch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC1AF51CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretch" */;
+			buildPhases = (
+				C4DC1AC91CAAD0D100DBE530 /* Sources */,
+				C4DC1ACA1CAAD0D100DBE530 /* Frameworks */,
+				C4DC1ACB1CAAD0D100DBE530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfCardStretch;
+			productName = DeckOfCardStretch;
+			productReference = C4DC1ACD1CAAD0D100DBE530 /* DeckOfCardStretch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4DC1AE01CAAD0D100DBE530 /* DeckOfCardStretchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC1AF81CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretchTests" */;
+			buildPhases = (
+				C4DC1ADD1CAAD0D100DBE530 /* Sources */,
+				C4DC1ADE1CAAD0D100DBE530 /* Frameworks */,
+				C4DC1ADF1CAAD0D100DBE530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DC1AE31CAAD0D100DBE530 /* PBXTargetDependency */,
+			);
+			name = DeckOfCardStretchTests;
+			productName = DeckOfCardStretchTests;
+			productReference = C4DC1AE11CAAD0D100DBE530 /* DeckOfCardStretchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4DC1AEB1CAAD0D100DBE530 /* DeckOfCardStretchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC1AFB1CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretchUITests" */;
+			buildPhases = (
+				C4DC1AE81CAAD0D100DBE530 /* Sources */,
+				C4DC1AE91CAAD0D100DBE530 /* Frameworks */,
+				C4DC1AEA1CAAD0D100DBE530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DC1AEE1CAAD0D100DBE530 /* PBXTargetDependency */,
+			);
+			name = DeckOfCardStretchUITests;
+			productName = DeckOfCardStretchUITests;
+			productReference = C4DC1AEC1CAAD0D100DBE530 /* DeckOfCardStretchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DC1AC51CAAD0D100DBE530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C4DC1ACC1CAAD0D100DBE530 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C4DC1AE01CAAD0D100DBE530 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4DC1ACC1CAAD0D100DBE530;
+					};
+					C4DC1AEB1CAAD0D100DBE530 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4DC1ACC1CAAD0D100DBE530;
+					};
+				};
+			};
+			buildConfigurationList = C4DC1AC81CAAD0D100DBE530 /* Build configuration list for PBXProject "DeckOfCardStretch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4DC1AC41CAAD0D100DBE530;
+			productRefGroup = C4DC1ACE1CAAD0D100DBE530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DC1ACC1CAAD0D100DBE530 /* DeckOfCardStretch */,
+				C4DC1AE01CAAD0D100DBE530 /* DeckOfCardStretchTests */,
+				C4DC1AEB1CAAD0D100DBE530 /* DeckOfCardStretchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DC1ACB1CAAD0D100DBE530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC1ADB1CAAD0D100DBE530 /* LaunchScreen.storyboard in Resources */,
+				C4DC1AD81CAAD0D100DBE530 /* Assets.xcassets in Resources */,
+				C4DC1AD61CAAD0D100DBE530 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1ADF1CAAD0D100DBE530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1AEA1CAAD0D100DBE530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DC1AC91CAAD0D100DBE530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC1AD31CAAD0D100DBE530 /* ViewController.swift in Sources */,
+				C4DC1B051CAADDAE00DBE530 /* DeckCollectionViewController.swift in Sources */,
+				C4DC1AD11CAAD0D100DBE530 /* AppDelegate.swift in Sources */,
+				C4DC1B031CAAD74A00DBE530 /* Card.swift in Sources */,
+				C4DC1B071CAADDED00DBE530 /* CardCollectionViewCell.swift in Sources */,
+				C4DC1B011CAAD37F00DBE530 /* DeckController.swift in Sources */,
+				C4DC1AFF1CAAD0EF00DBE530 /* NetworkController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1ADD1CAAD0D100DBE530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC1AE61CAAD0D100DBE530 /* DeckOfCardStretchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DC1AE81CAAD0D100DBE530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DC1AF11CAAD0D100DBE530 /* DeckOfCardStretchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DC1AE31CAAD0D100DBE530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DC1ACC1CAAD0D100DBE530 /* DeckOfCardStretch */;
+			targetProxy = C4DC1AE21CAAD0D100DBE530 /* PBXContainerItemProxy */;
+		};
+		C4DC1AEE1CAAD0D100DBE530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DC1ACC1CAAD0D100DBE530 /* DeckOfCardStretch */;
+			targetProxy = C4DC1AED1CAAD0D100DBE530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4DC1AD41CAAD0D100DBE530 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DC1AD51CAAD0D100DBE530 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4DC1AD91CAAD0D100DBE530 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DC1ADA1CAAD0D100DBE530 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4DC1AF31CAAD0D100DBE530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4DC1AF41CAAD0D100DBE530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DC1AF61CAAD0D100DBE530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeckOfCardStretch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4DC1AF71CAAD0D100DBE530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeckOfCardStretch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4DC1AF91CAAD0D100DBE530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeckOfCardStretchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckOfCardStretch.app/DeckOfCardStretch";
+			};
+			name = Debug;
+		};
+		C4DC1AFA1CAAD0D100DBE530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeckOfCardStretchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckOfCardStretch.app/DeckOfCardStretch";
+			};
+			name = Release;
+		};
+		C4DC1AFC1CAAD0D100DBE530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeckOfCardStretchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeckOfCardStretch;
+			};
+			name = Debug;
+		};
+		C4DC1AFD1CAAD0D100DBE530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeckOfCardStretchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.DeckOfCardStretchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeckOfCardStretch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DC1AC81CAAD0D100DBE530 /* Build configuration list for PBXProject "DeckOfCardStretch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC1AF31CAAD0D100DBE530 /* Debug */,
+				C4DC1AF41CAAD0D100DBE530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DC1AF51CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC1AF61CAAD0D100DBE530 /* Debug */,
+				C4DC1AF71CAAD0D100DBE530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4DC1AF81CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC1AF91CAAD0D100DBE530 /* Debug */,
+				C4DC1AFA1CAAD0D100DBE530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4DC1AFB1CAAD0D100DBE530 /* Build configuration list for PBXNativeTarget "DeckOfCardStretchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DC1AFC1CAAD0D100DBE530 /* Debug */,
+				C4DC1AFD1CAAD0D100DBE530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DC1AC51CAAD0D100DBE530 /* Project object */;
+}

@@ -1,0 +1,1400 @@
+[
+   {
+      "name":"Orientation",
+      "lessonID":0,
+      "reviewedForiOS5":false,
+      "description":"We have three goals at Orientation:\n\n1. Meet eachother, your mentors, and your instructors\n2. Review class workflows\n3. Complete your first Code Review\n\nStudents should come ready to present their precourse work and understanding.\n",
+      "instructorNotes":"\nIn preparation for this lesson, invite the mentors and instructors for the cohort to be here for orientation and code review. Meeting the mentors and instructors in-person is a key element of student success in our cohort. If they are not, contact the Lead Instructor to get them ready for Orientation.\n\nAdditionally, visit the [Code Review Checklist](https://github.com/DevMountain/ios-code-review-checklist), the [Precourse Success Tracker](https://docs.google.com/spreadsheets/d/1eQLChMvugyWdrxkXMDuxht_7yXQI0fH1IPfrkQA1KGE/edit#gid=1490463149), and the [Student Success Tracker](https://docs.google.com/spreadsheets/d/1H_0uaJg6FJvhvbUGpi7cUAUTJWZlTd6mLTjk4K0DfBg/edit#gid=1490463149) to ensure that they are updated with the incoming cohort.\n\n### Meet eachother, mentors, and instructors\nDo introductions around the room in an interesting way. At the very least, have everyone introduce themselves, their favorite app, and why they decided to take the class.\n\n### Review class workflows\nReview Objective 0.4 below. \n\n### Complete the first Code Review\nReview Objective 0.1 below.\n\nAllow for flexibility during the Code Review portion. We should not only catch areas where students are behind, but we should spend time helping them get caught up. Mentors may need to do small group code reviews based on the number of mentors and students at Orientation.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and participate in classroom workflows",
+            "objectiveID":0.4,
+            "time":20
+         },
+         {
+            "studentCan":"describe basic object-oriented programming concepts, and use Xcode complete relevant sample projects",
+            "objectiveID":0.1,
+            "time":30
+         },
+         {
+            "studentCan":"use git to fork, clone, commit, and push work",
+            "objectiveID":0.2,
+            "time":15
+         },
+         {
+            "studentCan":"create, size, and place View objects",
+            "objectiveID":0.3,
+            "time":15
+         }
+      ]
+   },
+   {
+      "name":"Views, View Controllers, and User Interaction",
+      "lessonID":1,
+      "reviewedForiOS5":true,
+      "description":"",
+      "instructorNotes":"There is a lot to cover in this lesson. Much of it is review of precourse materials, but it is still important to clearly explain each concept.\n\nGet the students into the documentation as you discuss properties and functions on UIViewController and UIView. \n\nIf you notice that a student is overwhelmed or it appears that they may not have finished their precourse work, please contact the lead instructor ASAP.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand, identify, and use documentation to implement UIKit elements",
+            "objectiveID":1.1,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify the role of View Controllers",
+            "objectiveID":1.2,
+            "time":30
+         },
+         {
+            "studentCan":"place views on the screen and update their properties",
+            "objectiveID":1.3,
+            "time":15
+         },
+         {
+            "studentCan":"understand, identify, and use different Controls",
+            "objectiveID":1.4,
+            "time":15
+         },
+         {
+            "studentCan":"understand, identify, and use Control Events to execute code",
+            "objectiveID":1.5,
+            "time":15
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS5",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/153850243",
+            "description":null
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/143786803",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/133053228",
+            "description":"Views and View Controllers"
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/132489516",
+            "description":"User Interaction"
+         }
+      ],
+      "projects":[
+         {
+            "projectID":0,
+            "name":"Flashlight",
+            "url":"https://github.com/devmountain/Flashlight",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"View Hierarchies, Segues, Stack Views, Basic Auto Layout",
+      "lessonID":2,
+      "reviewedForiOS5":true,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"identify and understand the pros and cons of a variety of navigation hierarchies",
+            "objectiveID":4.1,
+            "time":30
+         },
+         {
+            "studentCan":"understand, identify, and use Navigation Controllers",
+            "objectiveID":4.2,
+            "time":15
+         },
+         {
+            "studentCan":"understand, identify, and use a Tab Bar Controller based view hierarchy",
+            "objectiveID":4.3,
+            "time":15
+         },
+         {
+            "studentCan":"understand and use storyboard segues and unwind segues",
+            "objectiveID":1.6,
+            "time":30
+         },
+         {
+            "studentCan":"understand, describe, and use Stack Views and basic Auto Layout to place views",
+            "objectiveID":1.7,
+            "time":30
+         },
+         {
+            "studentCan":"use size classes to design effectively for multiple devices",
+            "objectiveID":1.9,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS5",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/153977624",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/132471625",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/133589685",
+            "description":"One of the first recorded lessons. Audio issues. Will replace this video with future cohort."
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/129063617",
+            "description":"One of the first recorded lessons. Audio issues. Will replace this video with future cohort."
+         }
+      ],
+      "projects":[
+         {
+            "projectID":1,
+            "name":"About Me",
+            "url":"https://github.com/devmountain/AboutMe",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Tableviews, Protocols (UITableViewDataSource, UITableViewDelegate)",
+      "lessonID":3,
+      "reviewedForiOS5":true,
+      "description":"Every view can be done with a table view or collection view. Everytime you look at a view, learn to ask yourself if you should be doing it with a one of these two (UITableView or UICollectionView). \n\nAn introduction to concepts of a view with a data-source and protocols.\n",
+      "instructorNotes":"Students donâ€™t need to understand everything about a tableview. This lesson is meant to be an introduction to concepts of a view with a data-source.\n\nDescribing a protocol, and how it works is the most important piece of this lesson.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and identify the protocol design pattern",
+            "objectiveID":2.1,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify the use of Table Views",
+            "objectiveID":2.2,
+            "time":30
+         },
+         {
+            "studentCan":"use the UITableViewDataSource protocol functions to provide data to an instance of UITableView",
+            "objectiveID":2.3,
+            "time":30
+         },
+         {
+            "studentCan":"understand, describe, and use the UITableViewDelegate function didSelectRowAtIndexPath to respond to user interaction",
+            "objectiveID":2.4,
+            "time":15
+         },
+         {
+            "studentCan":"take advantage of pair programming to work with and learn from other developers",
+            "objectiveID":12.2,
+            "time":15
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS5",
+            "instructor":"Taylor Mott",
+            "url":"https://vimeo.com/154124099",
+            "description":null
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/143786817",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/132478852",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/133069153",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":2,
+            "name":"Solar System",
+            "url":"https://github.com/devmountain/SolarSystem",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"MVC, Model Objects, Model Object Controllers",
+      "lessonID":4,
+      "reviewedForiOS5":true,
+      "description":"Model-View-Controller is an essential design pattern to follow when developing for iOS. We will talk about following MVC principles as we architect and plan our our applications.\n\nThis lesson provides many examples for thinking through MVC architecture in a variety of contexts. Students should not get hung up on all of the different examples, but should focus on the MVC concepts.\n",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and identify proper Model-View-Controller usage",
+            "objectiveID":3.1,
+            "time":null
+         },
+         {
+            "studentCan":"create a custom class for storing model data",
+            "objectiveID":3.2,
+            "time":30
+         },
+         {
+            "studentCan":"store data on and retrieve data from a model controller object",
+            "objectiveID":3.3,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify the singleton pattern",
+            "objectiveID":3.4,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Joshua Howland",
+            "url":"https://player.vimeo.com/video/143786839",
+            "description":"Missing 10 minutes of lesson due to technical difficulties"
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Layne Moseley",
+            "url":"https://player.vimeo.com/video/143786839",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/132388542",
+            "description":"MVC Overview"
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/133374145",
+            "description":"MVC Overview"
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/133592273",
+            "description":"Custom Model Objects and Controllers"
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/132991541",
+            "description":"Custom Model Objects and Controllers"
+         }
+      ],
+      "projects":[
+         {
+            "projectID":3,
+            "name":"Journal",
+            "url":"https://github.com/devmountain/Journal",
+            "description":"Part 1, Part 2"
+         }
+      ]
+   },
+   {
+      "name":"Persistence with NSCoding and NSUserDefaults",
+      "lessonID":5,
+      "reviewedForiOS5":true,
+      "description":"Persistent data is information that is written to disk or to a web service that can be accessed after closing and reopening your iOS application.\n\nCommon tools for local persistence include Plists, NSUserDefaults, and Core Data. This lesson covers the first two of those options.\n",
+      "instructorNotes":"Students struggle with the builder method concept. Practice how you will teach this to students *before* your lesson. This will go a long way to helping the students understand this important concept.\n\nSome instructors have had success teaching this lesson by starting with Plists, as it gives students an extra frame of reference for why they need to know how to convert objects.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"convert a custom model object into a Dictionary",
+            "objectiveID":3.5,
+            "time":15
+         },
+         {
+            "studentCan":"convert a Dictionary into a custom model object for use",
+            "objectiveID":3.6,
+            "time":15
+         },
+         {
+            "studentCan":"understand and identify what can be stored in plist files",
+            "objectiveID":3.7,
+            "time":15
+         },
+         {
+            "studentCan":"persist data between app launches using NSUserDefaults",
+            "objectiveID":3.8,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS5",
+            "instructor":"Caleb Hicks",
+            "url":"https://vimeo.com/154360211",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/132994344",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134345571",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":3,
+            "name":"Journal",
+            "url":"https://github.com/devmountain/Journal",
+            "description":"Part 3"
+         }
+      ]
+   },
+   {
+      "name":"UIAppearance, NSNotificationCenter",
+      "lessonID":6,
+      "reviewedForiOS5":true,
+      "description":"",
+      "instructorNotes":"There are three distinct sections of this lesson. It is important that you get through all three. If you need to cut time, cut time on the individual objectives, do not cut off an entire objective at the end.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand, identify, and use the Appearance protocol to set visual attributes",
+            "objectiveID":"1.10",
+            "time":30
+         },
+         {
+            "studentCan":"understand, describe, and use NSNotifications to notify other classes of events",
+            "objectiveID":"3.10",
+            "time":45
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/143921370",
+            "description":null
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/129063622",
+            "description":"UIAppearance"
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134355311",
+            "description":"UIAppearance"
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/133509744",
+            "description":"NSNotificationCenter"
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/134346601",
+            "description":"NSNotificationCenter"
+         }
+      ],
+      "projects":[
+         {
+            "projectID":4,
+            "name":"Timer",
+            "url":"https://github.com/devmountain/Timer",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Alert Controllers, Local Alerts",
+      "lessonID":7,
+      "reviewedForiOS5":false,
+      "description":"Comunicate with user using UIAlertViewController and schedule a device notification in the future with Local Notifications\n",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand, display, and respond to user responses from an Alert Controller",
+            "objectiveID":6.11,
+            "time":30
+         },
+         {
+            "studentCan":"instantiate, schedule, and handle Local Notifications",
+            "objectiveID":6.12,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Michael Sacks",
+            "url":"https://player.vimeo.com/video/143925590",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134356196",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":4,
+            "name":"Timer",
+            "url":"https://github.com/devmountain/Timer",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"MVC Planning and Review - Task",
+      "lessonID":8,
+      "reviewedForiOS5":true,
+      "description":"Development planning is an essential step for any non-trivial application. Today we will focus on designing the architecture of a to-do application.\n",
+      "instructorNotes":"Today you will go through the project planning process for a Task application using the [DevMountain App Canvas](/resources/canvas.pdf). Work through each section, and then explain how the tracker works at the bottom.\n\nYou will probably end up planning something with projects, tasks, tags, etc. Plan out a full featured app, then trim it way down into an MVP that closely resembles the project for this afternoon. \n\nThe project is a simple Task List view, Task Detail view, with NSKeyedArchiving persistence that will be refactored into Core Data persistence at the end. *Please review the solution code so your model object and model object controllers match follow similar style and design patterns.*\n",
+      "studentNotes":"MVC is such an important concept that we will review it multiple times throughout the cohort. Part of that review will happen via these planning lessons. If you feel like you have a solid foundation on MVC, you do not need to review the MVC preclass resources.\n",
+      "objectives":[
+         {
+            "studentCan":"understand and identify proper Model-View-Controller usage",
+            "objectiveID":3.1,
+            "time":null
+         },
+         {
+            "studentCan":"systematically plan out each class needed for an MVP product",
+            "objectiveID":9.4,
+            "time":null
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/143925649",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134356196",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":5,
+            "name":"Task",
+            "url":"https://github.com/devmountain/Task",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Intermediate Tableviews",
+      "lessonID":9,
+      "reviewedForiOS5":false,
+      "description":"Custom Cells, Custom Delegate, External DataSource, Editing Styles, Static Tableviews, Header/Footer Views, Enums, Reusing TableViewControllers\n",
+      "instructorNotes":"This lesson covers group demonstrations of some intermediate/advanced table view features. Spend some time talking about use cases and examples, and then build a quick working example with the students.\n",
+      "studentNotes":"Table views are extremely common. This lesson covers some intermediate and advanced table view features. The teacher will cover a lot of content, showing and building examples with you. There is a lot of content, ask questions for clarification when you are stuck.\n",
+      "objectives":[
+         {
+            "studentCan":"implement intermediate Table View features",
+            "objectiveID":2.5,
+            "time":120
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/143802535",
+            "description":null
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Bryan Bryce",
+            "url":"https://player.vimeo.com/video/129261961",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":5,
+            "name":"Task",
+            "url":"https://github.com/devmountain/Task",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Persistence with Core Data",
+      "lessonID":10,
+      "reviewedForiOS5":false,
+      "description":">The Core Data framework provides generalized and automated solutions to common tasks associated with object life-cycle and object graph management, including persistence. \n",
+      "instructorNotes":"The students should not be afraid of Core Data. If this lesson is taught correctly, the students will love Core Data and consider it a relief over using NSUserDefaults or NSKeyedArchiving for model persistence.\n\nSpend as much time as you need on the conceptual overview of Core Data, because the more they understand the different moving parts of Core Data, the easier the code will be for them.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"use basic best practices for proper database design",
+            "objectiveID":8.15,
+            "time":20
+         },
+         {
+            "studentCan":"understand, describe, and set up the Core Data stack from scratch",
+            "objectiveID":3.9,
+            "time":null
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/144635465",
+            "description":null
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/149788689",
+            "description":"Intermediate Core Data"
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/135305293",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/135633871",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":5,
+            "name":"Task",
+            "url":"https://github.com/devmountain/Task",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Closures, Grand Central Dispatch, NSURLSession",
+      "lessonID":11,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"Use the iTunes Search activity under Day 1 for the NSURLSession objective.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and use closure syntax to work with network requests and other block based APIs",
+            "objectiveID":6.5,
+            "time":45
+         },
+         {
+            "studentCan":"understand, describe, and interact with a RESTful backend",
+            "objectiveID":8.1,
+            "time":30
+         },
+         {
+            "studentCan":"understand and use NSURLSession for downloading and updating network data",
+            "objectiveID":8.2,
+            "time":60
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Layne Moseley",
+            "url":"https://player.vimeo.com/video/144641281",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/134365238",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/134792753",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/135401354",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/135511251",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":6,
+            "name":"Weather",
+            "url":"https://github.com/devmountain/Weather",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Closures, Grand Central Dispatch, NSURLSession",
+      "lessonID":12,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"This is a review lesson. The concepts were taught yesterday, but the lesson covers a lot. Spend time refining understanding and digging in to the project.\n\nUse the Open Movie Database activity under Day 2 for the NSURLSession objective.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and use block syntax to work with network requests and other block based APIs",
+            "objectiveID":6.5,
+            "time":45
+         },
+         {
+            "studentCan":"understand, describe, and interact with a RESTful backend",
+            "objectiveID":8.1,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify NSURLSession for downloading and updating network data",
+            "objectiveID":8.2,
+            "time":60
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/143914862",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/134365238",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/134792753",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/135401354",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/135511251",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":7,
+            "name":"Representative",
+            "url":"https://github.com/devmountain/Representative",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Programmatic Views, Auto Layout, Animation",
+      "lessonID":13,
+      "reviewedForiOS5":false,
+      "description":">Auto Layout is a system that lets you lay out your appâ€™s user interface by creating a mathematical description of the relationships between the elements. You define these relationships in terms of constraints either on individual elements, or between sets of elements. Using Auto Layout, you can create a dynamic and versatile interface that responds appropriately to changes in screen size, device orientation, and localization.\n",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand, describe, and use Auto Layout to place views programmatically",
+            "objectiveID":1.8
+         },
+         {
+            "studentCan":"understand size class design, and plan for a cohesive design between both large and small classes",
+            "objectiveID":5.5,
+            "time":null
+         },
+         {
+            "studentCan":"animate View objects using animateWithDuration",
+            "objectiveID":6.6,
+            "time":null
+         },
+         {
+            "studentCan":"animate View objects using Core Animation",
+            "objectiveID":6.7,
+            "time":null
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/144161541",
+            "description":"This used to be a two part lesson. This is the Programmatic Views and Auto Layout portion."
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/146025295",
+            "description":"This used to be a two part lesson. This is the Animation portion."
+         }
+      ],
+      "projects":[
+         {
+            "projectID":8,
+            "name":"Calculator",
+            "url":"https://github.com/devmountain/Calculator",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Project Planning - Timeline",
+      "lessonID":14,
+      "reviewedForiOS5":false,
+      "description":"Development planning is an essential step for any non-trivial application. Today we will focus on designing the architecture of a simple photo sharing application.\n",
+      "instructorNotes":"Today you will go through the project planning process for a photo sharing application using the [DevMountain App Canvas](/resources/canvas.pdf). Work through each section, and then review how the tracker works at the bottom.\n\nYou will probably end up planning something with users, photos, likes, and comments. Plan out a full featured app, then trim it down into an MVP that closely resembles the project for this afternoon. \n\nThe project is a simple photo sharing app with users, photos, likes, and comments. There is a photo list view, photo detail view, add photo view, user search view, and profile view.\n\nReview the solution code so your model object and model object controllers match follow similar style and design patterns.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"identify and understand the pros and cons of a variety of navigation hierarchies",
+            "objectiveID":4.6,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify proper Model-View-Controller usage",
+            "objectiveID":3.1,
+            "time":30
+         },
+         {
+            "studentCan":"systematically plan out each class needed for an MVP product",
+            "objectiveID":9.4,
+            "time":120
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/144660224",
+            "description":null
+         },
+         {
+            "cohort":null,
+            "instructor":null,
+            "url":null,
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":9,
+            "name":"Timeline",
+            "url":"https://github.com/devmountain/Timeline",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Collection Views, Search Controller",
+      "lessonID":15,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"instantiate, place, and give data to a Collection View",
+            "objectiveID":2.6,
+            "time":null
+         },
+         {
+            "studentCan":"implement intermediate Collection View features",
+            "objectiveID":2.7,
+            "time":null
+         },
+         {
+            "studentCan":"add a Search Controller and respond to search input",
+            "objectiveID":6.4,
+            "time":null
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/144679332",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134356196",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":9,
+            "name":"Timeline",
+            "url":"https://github.com/devmountain/Timeline",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Apple View Controllers",
+      "lessonID":16,
+      "reviewedForiOS5":false,
+      "description":"MFMailComposeViewController, UIImagePickerController, UIActivityViewController, SafariViewController\n",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand, identify, and use the Apple View Controllers",
+            "objectiveID":6.13,
+            "time":90
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/144788330",
+            "description":null
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/134356196",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":9,
+            "name":"Timeline",
+            "url":"https://github.com/devmountain/Timeline",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Debugging and Code Review",
+      "lessonID":17,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"use Xcode debugging features to resolve bugs",
+            "objectiveID":12.1,
+            "time":60
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/145926387",
+            "description":null
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Bryan Bryce",
+            "url":"https://player.vimeo.com/video/129261961",
+            "description":null
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Taylor Mott",
+            "url":"https://player.vimeo.com/video/130811368",
+            "description":null
+         },
+         {
+            "cohort":"iOS2",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/135298705",
+            "description":null
+         }
+      ],
+      "projects":null
+   },
+   {
+      "name":"Firebase Introduction",
+      "lessonID":18,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand features of Firebase, add Firebase to an Xcode project, save and retrieve simple data from Firebase",
+            "objectiveID":8.5,
+            "time":120
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/145422328",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH6",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/142740934",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":9,
+            "name":"Timeline",
+            "url":"https://github.com/devmountain/Timeline",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Firebase Authentication and Security",
+      "lessonID":19,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand and identify best practices for structuring data in Firebase",
+            "objectiveID":8.6,
+            "time":45
+         },
+         {
+            "studentCan":"use Firebase authentication and protected access for objects",
+            "objectiveID":8.7,
+            "time":45
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/146155731",
+            "description":null
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Layne Moseley",
+            "url":"https://player.vimeo.com/video/145430755",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH6",
+            "instructor":"Caleb Hicks",
+            "url":"https://player.vimeo.com/video/142740934",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":9,
+            "name":"Timeline",
+            "url":"https://github.com/devmountain/Timeline",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Objective-C Essentials - Journal",
+      "lessonID":20,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "id":null,
+            "name":null,
+            "time":null
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Andrew Madsen",
+            "url":"https://player.vimeo.com/video/147383016",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":10,
+            "name":"Journal-C",
+            "url":"https://github.com/devmountain/Journal-C",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Project Planning - Chat",
+      "lessonID":21,
+      "reviewedForiOS5":false,
+      "description":"Development planning is an essential step for any non-trivial application. Today we will focus on designing the architecture of a simple photo sharing application.\n",
+      "instructorNotes":"Today you will go through the project planning process for a chat application using the [DevMountain App Canvas](/resources/canvas.pdf). Work through each section, and then review how the tracker works at the bottom.\n\nThis project has 2 required features, and a number of optional features. The required features are:\n\n1:1 chat\nGroup chat\n\nWhether you model this application after Messages, Slack, Line, Voxer, or any other chat application is up to you. Practice building out a larger project with only feature guidance. Plan out the features, the model, the controllers, and other supporting classes.\n\nPlan out a full featured app, then trim it down into an MVP that closely resembles the project for this afternoon. \n\nThe project is a simple chat app with additional features you have gleaned from research and personal preferences.\n\nReview and learn from past solution code so your model object and model object controllers follow similar style and design patterns.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"identify and understand the pros and cons of a variety of navigation hierarchies",
+            "objectiveID":4.6,
+            "time":30
+         },
+         {
+            "studentCan":"understand and identify proper Model-View-Controller usage",
+            "objectiveID":3.1,
+            "time":30
+         },
+         {
+            "studentCan":"systematically plan out each class needed for an MVP product",
+            "objectiveID":9.4,
+            "time":120
+         }
+      ],
+      "video":null,
+      "projects":[
+         {
+            "projectID":11,
+            "name":"Chat",
+            "url":"https://github.com/devmountain/Chat",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Application Design",
+      "lessonID":22,
+      "reviewedForiOS5":false,
+      "description":"This week you have 3 goals: \n\n  - First draft visual design for your capstone project\n  - First draft development plan discussed with instructors and mentor\n  - First draft navigation stack built out\n\nThis lesson will cover the first goal, building a compelling visual design that fills a specific featureset.\n\nThis is an incredibly important lesson for the students. Those who finish the project with a thorough development plan that matches their designs are 10x more likely to succeed on their Capstone Projects.\n\nIn preparing for the message, send a message to the students to remind them that they'll need their first draft of Capstone Designs in Keynote for this lesson to be successful. Here's a message you can copy and paste:\n\n>Hey class, we're talking about Development Planning in class tonight. It's essential that you have your feature list and visual designs ready to go. We're going to use the designs to break down each view, model object, and controller you'll need as you build your app.\n",
+      "instructorNotes":"Students should have their Capstone Project idea narrowed down at this point. Emphasize to the students before class that they should have their Capstone Project ideas before class. Here's a sample message you could send on Slack:\n\n> Hey class, we're covering Application Design tonight. It's the first lesson specific to your Capstone Projects. To get the most out of class, you should have your capstone project narrowed down. Reach out to your mentor and discuss your various ideas so you can come to class with a specific, doable Capstone Project idea.\n\nTake 30 minutes at the beginning of class to get the students' capstone project ideas up on the board. \n\nWork through each project and discuss the pros/cons/difficulties of each project idea. Be realistic with the students about what they can expect to finish over the remaining 6-9 weeks of class.\n\nSpend the next hour talking throught the process of Application Design: \n\n* Determining the problem and the possible solutions\n* Determining the available tools and data\n* Defining features\n* Designing views that fill those features\n* Testing Design with Users (covered in depth in a future lesson)\n* Development Planning (Feature Sets and Versioning, Minimum Viable Product) (covered in depth in a future lesson)\n",
+      "studentNotes":"iOS Development is a design heavy engineering task. Today we cover how to take an idea from conception to first draft design of features and user interaction.\n\nHere is a 4 step process: \n\n* Think through the features you'd like to deliver, and what is capable with available APIs\n* Plan out the view hierarchy (navigation, different views, how they relate) that you'll be building. \n* Plan out the classes you will need to build the features you want to build (model controllers, network stacks, persistent storage, etc.)\n* Build a development plan for a minimum viable product\n\nToday we're going to go through the visual and usability design process. You will create wireframes and usable prototypes to show your potential users.\n\nYou will be tempted to design high fidelity prototypes using Photoshop or Sketch. *Don't*. If you spend too much time on a prototype then you won't be willing to blow it up and start over. Don't move from low fidelity sketches to high fidelity design until you've validated your design with potential users and your mentor.\n",
+      "objectives":[
+         {
+            "studentCan":"identify and understand the pros and cons of a variety of navigation hierarchies",
+            "objectiveID":4.6,
+            "time":30
+         },
+         {
+            "studentCan":"understand and follow best practices for UX oriented design",
+            "objectiveID":9.1,
+            "time":45
+         },
+         {
+            "studentCan":"create low-fidelity designs to demonstrate the user flow through an app",
+            "objectiveID":9.2,
+            "time":45
+         },
+         {
+            "studentCan":"understand how to test an app design with a potential user",
+            "objectiveID":9.3,
+            "time":30
+         },
+         {
+            "studentCan":"understand the best practices to plan development versioning and minimum viable solutions",
+            "objectiveID":9.5,
+            "time":30
+         },
+         {
+            "studentCan":"systematically plan out each class needed for an MVP product",
+            "objectiveID":9.4,
+            "time":90
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Brandon Beecroft",
+            "url":"https://player.vimeo.com/video/145549032",
+            "description":"This lesson used to be divided into 2 lessons. This is Part 1."
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Ben Norris",
+            "url":"https://player.vimeo.com/video/145672294",
+            "description":"This lesson used to be divided into 2 lessons. This is Part 2."
+         },
+         {
+            "cohort":"iOS3",
+            "instructor":"Joshua Howland",
+            "url":"https://player.vimeo.com/video/134654232",
+            "description":null
+         },
+         {
+            "cohort":"iOSAH5",
+            "instructor":"Parker Wightman",
+            "url":"https://player.vimeo.com/video/133517612",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":12,
+            "name":"Capstone Project",
+            "url":"https://github.com/devmountain/iOS-Capstone-Project",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Push Notifications with CloudKit",
+      "lessonID":23,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":null,
+      "video":null,
+      "projects":[
+         {
+            "projectID":12,
+            "name":"Capstone Project",
+            "url":"https://github.com/devmountain/iOS-Capstone-Project",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"TestFlight, App Submission",
+      "lessonID":24,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"submit an app through iTunes Connect for beta testing using TestFlight",
+            "objectiveID":10.1,
+            "time":30
+         },
+         {
+            "studentCan":"submit an app through iTunes Connect for distribution on the App Store",
+            "objectiveID":10.2,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Michael Sacks",
+            "url":"https://player.vimeo.com/video/147757649",
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":12,
+            "name":"Capstone Project",
+            "url":"https://github.com/devmountain/iOS-Capstone-Project",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Intermediate Core Data",
+      "lessonID":25,
+      "reviewedForiOS5":false,
+      "description":"Predicates, Fetched Results Controllers, Multiple Contexts\n",
+      "instructorNotes":"#### Predicates\n\nExplain that you can use an NSPredicate to narrow down the data a fetch request returns. For example, you can return only people with a birthday on a certain day, etc.\n\nChange the TaskController's completedTasks and incompleteTasks properties to use a fetch request with a predicate instead of filtering all the tasks.\n\n```\nvar completedTasks:[Task] {\n  let request = NSFetchRequest(entityName: \"Task\")\n  request.predicate = NSPredicate(format: \"isComplete == TRUE\")\n  do {\n    let moc = Stack.sharedStack.managedObjectContext\n    return try moc.executeFetchRequest(request) as! [Task]\n  } catch {\n    return []\n  }\n}\n```\n\n#### Migrations\n\nExplain Core Data's support for migrations. Migrations are used when you make changes to your data model in an update to your app and need to migrate existing data to the new model when a user updates your app. Core Data supports three kinds of migrations in order of increasing power and complexity: lightweight migrations, migrations using a model mapping file, and fully customized migrations where you write code to do whatever you need to do. \n\nExplain that lightweight migration can be done automatically as long as the changes to your data model are simple, including:\n\n- Simple addition of a new attribute\n- Removal of an attribute\n- A non-optional attribute becoming optional\n- An optional attribute becoming non-optional, and defining a default value\n- Renaming an entity or property\n\nExplain that for a migration to work, you must version your core data model so that the app has both the old and new model available to it.\n\nDemonstrate adding an additional attribute called priority to Task, and migrating an existing store.\n\n#### Fetched Results Controller\n\nExplain that an NSFetchedResultsController can be used to simplify management of core data objects being displayed by a table view. It can will fetch objects, split them into sections, sort them, detect when objects have been changed so you can reload the table, etc.\n\nRewrite TaskListTableViewController to use an NSFetchedResultsController instead of TaskController.\n\nYou can use \"priority\" as the sectionNameKeyPath easily separate tasks into sections based on their priority.\n\n#### Multiple Contexts\n\nExplain how multiple managed object contexts work. They can be used in a number of scenarios, including background updates to your core data stack, as a 'scratch pad' to make edits easily discardable, etc.\n",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"use predicates to filter collections",
+            "objectiveID":3.11,
+            "time":30
+         }
+      ],
+      "video":null
+   },
+   {
+      "name":"Job Preparation",
+      "lessonID":26,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"understand the best practices for finding open iOS jobs inside and outside of Utah",
+            "objectiveID":12.8
+         },
+         {
+            "studentCan":"answer common technical interview questions with clarity and accuracy",
+            "objectiveID":12.9
+         },
+         {
+            "studentCan":"present a professional resume and social media presence on LinkedIn, Github, and elsewhere",
+            "objectiveID":"12.10",
+            "time":60,
+            "isCore":true
+         },
+         {
+            "studentCan":"follow best practices for accepting and negotiating an offer",
+            "objectiveID":12.11
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Jeff Chapman",
+            "url":"https://player.vimeo.com/video/149788016",
+            "description":"Jeff Chapman's mid-cohort introduction to finding jobs."
+         }
+      ],
+      "projects":[
+         {
+            "projectID":12,
+            "name":"Capstone Project",
+            "url":"https://github.com/devmountain/iOS-Capstone-Project",
+            "description":null
+         },
+         {
+            "projectID":null,
+            "name":"Up Your Social Game",
+            "url":null,
+            "description":"* Update your LinkedIn profile\n* Refine and clean up your other social profiles (Facebook, Twitter, Tumblr, etc.)\n* Create a personal landing page using Github pages\n  * [Find a template](http://themeforest.com)\n  * [Buy a domain name](http://hover.com)\n  * [Host the site on GitHub Pages](https://pages.github.com)\n  * Add your new site to your social profiles\n  * Ask your mentor and instructors for feedback\n"
+         }
+      ]
+   },
+   {
+      "name":"Working in Teams",
+      "lessonID":27,
+      "reviewedForiOS5":false,
+      "description":"This lesson covers a few best practices for success in working in a team. Specifically, we will address the following:\n\n1. Team Git Flow\n2. Pull Requests\n3. Code Review\n4. Sprint planning\n5. Standup meetings\n\nThese concepts will help your team work together for a successful team project, and will get you familiar with how development teams work.\n",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"use git-flow to manage projects and work in a shared codebase",
+            "objectiveID":12.3,
+            "time":30
+         },
+         {
+            "studentCan":"follow best practices for code review to improve code",
+            "objectiveID":12.5,
+            "time":30
+         },
+         {
+            "studentCan":"understand and work in a sprint-based system for development",
+            "objectiveID":12.4,
+            "time":30
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":null,
+            "url":null,
+            "description":null
+         }
+      ],
+      "projects":[
+         {
+            "projectID":12,
+            "name":"Capstone Project",
+            "url":"https://github.com/devmountain/iOS-Capstone-Project",
+            "description":null
+         }
+      ]
+   },
+   {
+      "name":"Employer Day",
+      "lessonID":28,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":null,
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":"Jeff Chapman",
+            "url":"https://vimeo.com/149788016",
+            "description":"Job Prep"
+         },
+         {
+            "cohort":"iOS4",
+            "instructor":"Jeff Chapman",
+            "url":"https://vimeo.com/144928722",
+            "description":"LinkedIn"
+         }
+      ],
+      "projects":null
+   },
+   {
+      "name":"Graduation",
+      "lessonID":29,
+      "reviewedForiOS5":false,
+      "description":"",
+      "instructorNotes":"",
+      "studentNotes":"",
+      "objectives":[
+         {
+            "studentCan":"continue learning iOS development after class ends",
+            "objectiveID":12.12,
+            "time":15
+         }
+      ],
+      "video":[
+         {
+            "cohort":"iOS4",
+            "instructor":null,
+            "url":null,
+            "description":null
+         }
+      ],
+      "projects":null
+   }
+]

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47B20C51CA0452F007F4712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B20C41CA0452F007F4712 /* main.m */; };
+		C47B20C81CA0452F007F4712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B20C71CA0452F007F4712 /* AppDelegate.m */; };
+		C47B20CB1CA0452F007F4712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B20CA1CA0452F007F4712 /* ViewController.m */; };
+		C47B20CE1CA0452F007F4712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47B20CC1CA0452F007F4712 /* Main.storyboard */; };
+		C47B20D01CA0452F007F4712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47B20CF1CA0452F007F4712 /* Assets.xcassets */; };
+		C47B20D31CA0452F007F4712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47B20D11CA0452F007F4712 /* LaunchScreen.storyboard */; };
+		C47B20DE1CA0452F007F4712 /* Obj_C_FizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B20DD1CA0452F007F4712 /* Obj_C_FizzBuzzTests.m */; };
+		C47B20E91CA0452F007F4712 /* Obj_C_FizzBuzzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B20E81CA0452F007F4712 /* Obj_C_FizzBuzzUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47B20DA1CA0452F007F4712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47B20B81CA0452F007F4712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47B20BF1CA0452F007F4712;
+			remoteInfo = "Obj-C FizzBuzz";
+		};
+		C47B20E51CA0452F007F4712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47B20B81CA0452F007F4712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47B20BF1CA0452F007F4712;
+			remoteInfo = "Obj-C FizzBuzz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47B20C01CA0452F007F4712 /* Obj-C FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-C FizzBuzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47B20C41CA0452F007F4712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47B20C61CA0452F007F4712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47B20C71CA0452F007F4712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47B20C91CA0452F007F4712 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47B20CA1CA0452F007F4712 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47B20CD1CA0452F007F4712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47B20CF1CA0452F007F4712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47B20D21CA0452F007F4712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47B20D41CA0452F007F4712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47B20D91CA0452F007F4712 /* Obj-C FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obj-C FizzBuzzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47B20DD1CA0452F007F4712 /* Obj_C_FizzBuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obj_C_FizzBuzzTests.m; sourceTree = "<group>"; };
+		C47B20DF1CA0452F007F4712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47B20E41CA0452F007F4712 /* Obj-C FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obj-C FizzBuzzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47B20E81CA0452F007F4712 /* Obj_C_FizzBuzzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obj_C_FizzBuzzUITests.m; sourceTree = "<group>"; };
+		C47B20EA1CA0452F007F4712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47B20BD1CA0452F007F4712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20D61CA0452F007F4712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20E11CA0452F007F4712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47B20B71CA0452F007F4712 = {
+			isa = PBXGroup;
+			children = (
+				C47B20C21CA0452F007F4712 /* Obj-C FizzBuzz */,
+				C47B20DC1CA0452F007F4712 /* Obj-C FizzBuzzTests */,
+				C47B20E71CA0452F007F4712 /* Obj-C FizzBuzzUITests */,
+				C47B20C11CA0452F007F4712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47B20C11CA0452F007F4712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47B20C01CA0452F007F4712 /* Obj-C FizzBuzz.app */,
+				C47B20D91CA0452F007F4712 /* Obj-C FizzBuzzTests.xctest */,
+				C47B20E41CA0452F007F4712 /* Obj-C FizzBuzzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47B20C21CA0452F007F4712 /* Obj-C FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				C47B20C61CA0452F007F4712 /* AppDelegate.h */,
+				C47B20C71CA0452F007F4712 /* AppDelegate.m */,
+				C47B20C91CA0452F007F4712 /* ViewController.h */,
+				C47B20CA1CA0452F007F4712 /* ViewController.m */,
+				C47B20CC1CA0452F007F4712 /* Main.storyboard */,
+				C47B20CF1CA0452F007F4712 /* Assets.xcassets */,
+				C47B20D11CA0452F007F4712 /* LaunchScreen.storyboard */,
+				C47B20D41CA0452F007F4712 /* Info.plist */,
+				C47B20C31CA0452F007F4712 /* Supporting Files */,
+			);
+			path = "Obj-C FizzBuzz";
+			sourceTree = "<group>";
+		};
+		C47B20C31CA0452F007F4712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47B20C41CA0452F007F4712 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47B20DC1CA0452F007F4712 /* Obj-C FizzBuzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47B20DD1CA0452F007F4712 /* Obj_C_FizzBuzzTests.m */,
+				C47B20DF1CA0452F007F4712 /* Info.plist */,
+			);
+			path = "Obj-C FizzBuzzTests";
+			sourceTree = "<group>";
+		};
+		C47B20E71CA0452F007F4712 /* Obj-C FizzBuzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47B20E81CA0452F007F4712 /* Obj_C_FizzBuzzUITests.m */,
+				C47B20EA1CA0452F007F4712 /* Info.plist */,
+			);
+			path = "Obj-C FizzBuzzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47B20BF1CA0452F007F4712 /* Obj-C FizzBuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47B20ED1CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzz" */;
+			buildPhases = (
+				C47B20BC1CA0452F007F4712 /* Sources */,
+				C47B20BD1CA0452F007F4712 /* Frameworks */,
+				C47B20BE1CA0452F007F4712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Obj-C FizzBuzz";
+			productName = "Obj-C FizzBuzz";
+			productReference = C47B20C01CA0452F007F4712 /* Obj-C FizzBuzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47B20D81CA0452F007F4712 /* Obj-C FizzBuzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47B20F01CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzzTests" */;
+			buildPhases = (
+				C47B20D51CA0452F007F4712 /* Sources */,
+				C47B20D61CA0452F007F4712 /* Frameworks */,
+				C47B20D71CA0452F007F4712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47B20DB1CA0452F007F4712 /* PBXTargetDependency */,
+			);
+			name = "Obj-C FizzBuzzTests";
+			productName = "Obj-C FizzBuzzTests";
+			productReference = C47B20D91CA0452F007F4712 /* Obj-C FizzBuzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47B20E31CA0452F007F4712 /* Obj-C FizzBuzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47B20F31CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzzUITests" */;
+			buildPhases = (
+				C47B20E01CA0452F007F4712 /* Sources */,
+				C47B20E11CA0452F007F4712 /* Frameworks */,
+				C47B20E21CA0452F007F4712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47B20E61CA0452F007F4712 /* PBXTargetDependency */,
+			);
+			name = "Obj-C FizzBuzzUITests";
+			productName = "Obj-C FizzBuzzUITests";
+			productReference = C47B20E41CA0452F007F4712 /* Obj-C FizzBuzzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47B20B81CA0452F007F4712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C47B20BF1CA0452F007F4712 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C47B20D81CA0452F007F4712 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C47B20BF1CA0452F007F4712;
+					};
+					C47B20E31CA0452F007F4712 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C47B20BF1CA0452F007F4712;
+					};
+				};
+			};
+			buildConfigurationList = C47B20BB1CA0452F007F4712 /* Build configuration list for PBXProject "Obj-C FizzBuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47B20B71CA0452F007F4712;
+			productRefGroup = C47B20C11CA0452F007F4712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47B20BF1CA0452F007F4712 /* Obj-C FizzBuzz */,
+				C47B20D81CA0452F007F4712 /* Obj-C FizzBuzzTests */,
+				C47B20E31CA0452F007F4712 /* Obj-C FizzBuzzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47B20BE1CA0452F007F4712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B20D31CA0452F007F4712 /* LaunchScreen.storyboard in Resources */,
+				C47B20D01CA0452F007F4712 /* Assets.xcassets in Resources */,
+				C47B20CE1CA0452F007F4712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20D71CA0452F007F4712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20E21CA0452F007F4712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47B20BC1CA0452F007F4712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B20CB1CA0452F007F4712 /* ViewController.m in Sources */,
+				C47B20C81CA0452F007F4712 /* AppDelegate.m in Sources */,
+				C47B20C51CA0452F007F4712 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20D51CA0452F007F4712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B20DE1CA0452F007F4712 /* Obj_C_FizzBuzzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47B20E01CA0452F007F4712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B20E91CA0452F007F4712 /* Obj_C_FizzBuzzUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47B20DB1CA0452F007F4712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47B20BF1CA0452F007F4712 /* Obj-C FizzBuzz */;
+			targetProxy = C47B20DA1CA0452F007F4712 /* PBXContainerItemProxy */;
+		};
+		C47B20E61CA0452F007F4712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47B20BF1CA0452F007F4712 /* Obj-C FizzBuzz */;
+			targetProxy = C47B20E51CA0452F007F4712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47B20CC1CA0452F007F4712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47B20CD1CA0452F007F4712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47B20D11CA0452F007F4712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47B20D21CA0452F007F4712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47B20EB1CA0452F007F4712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C47B20EC1CA0452F007F4712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47B20EE1CA0452F007F4712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Obj-C FizzBuzz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47B20EF1CA0452F007F4712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Obj-C FizzBuzz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C47B20F11CA0452F007F4712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Obj-C FizzBuzzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obj-C FizzBuzz.app/Obj-C FizzBuzz";
+			};
+			name = Debug;
+		};
+		C47B20F21CA0452F007F4712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Obj-C FizzBuzzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obj-C FizzBuzz.app/Obj-C FizzBuzz";
+			};
+			name = Release;
+		};
+		C47B20F41CA0452F007F4712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Obj-C FizzBuzzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Obj-C FizzBuzz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C47B20F51CA0452F007F4712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Obj-C FizzBuzzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Obj-C-FizzBuzzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Obj-C FizzBuzz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47B20BB1CA0452F007F4712 /* Build configuration list for PBXProject "Obj-C FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47B20EB1CA0452F007F4712 /* Debug */,
+				C47B20EC1CA0452F007F4712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47B20ED1CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47B20EE1CA0452F007F4712 /* Debug */,
+				C47B20EF1CA0452F007F4712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47B20F01CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47B20F11CA0452F007F4712 /* Debug */,
+				C47B20F21CA0452F007F4712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47B20F31CA0452F007F4712 /* Build configuration list for PBXNativeTarget "Obj-C FizzBuzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47B20F41CA0452F007F4712 /* Debug */,
+				C47B20F51CA0452F007F4712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47B20B81CA0452F007F4712 /* Project object */;
+}

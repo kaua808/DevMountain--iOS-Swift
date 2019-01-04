@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9nI-NE-BcX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search Subreddit View Controller-->
+        <scene sceneID="6tL-UG-5qi">
+            <objects>
+                <viewController id="9nI-NE-BcX" customClass="SearchSubredditViewController" customModule="Reddit_Stretch_Problem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E59-a6-YSd"/>
+                        <viewControllerLayoutGuide type="bottom" id="zB1-eD-5xK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vlp-G7-l9t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yox-8r-vAJ">
+                                <rect key="frame" x="276" y="305" width="48" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchButtonTapped:" destination="9nI-NE-BcX" eventType="touchUpInside" id="qJ5-eO-sjI"/>
+                                    <segue destination="Ps0-fk-1wS" kind="show" identifier="toSubreddits" id="Tb4-7L-FPa"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="search subreddit here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oy1-5r-Ox0">
+                                <rect key="frame" x="108" y="267" width="385" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="385" id="k1o-BA-zuY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oy1-5r-Ox0" firstAttribute="centerX" secondItem="Yox-8r-vAJ" secondAttribute="centerX" id="I8j-lX-KeN"/>
+                            <constraint firstItem="Oy1-5r-Ox0" firstAttribute="leading" secondItem="vlp-G7-l9t" secondAttribute="leadingMargin" constant="88" id="OgR-4k-9BL"/>
+                            <constraint firstItem="Oy1-5r-Ox0" firstAttribute="centerX" secondItem="vlp-G7-l9t" secondAttribute="centerX" id="T4a-rv-Ata"/>
+                            <constraint firstItem="Oy1-5r-Ox0" firstAttribute="top" secondItem="E59-a6-YSd" secondAttribute="bottom" constant="247" id="UFh-HH-69N"/>
+                            <constraint firstItem="Yox-8r-vAJ" firstAttribute="top" secondItem="Oy1-5r-Ox0" secondAttribute="bottom" constant="8" symbolic="YES" id="rRq-zB-2ia"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchTextField" destination="Oy1-5r-Ox0" id="Mvg-ma-tq5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akD-Ka-4Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="315"/>
+        </scene>
+        <!--Subreddits Table View Controller-->
+        <scene sceneID="rcA-8E-PU7">
+            <objects>
+                <tableViewController id="Ps0-fk-1wS" customClass="SubredditsTableViewController" customModule="Reddit_Stretch_Problem" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5nF-3Q-G8x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="TyD-dN-hBi">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TyD-dN-hBi" id="CnE-HM-PQz">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ps0-fk-1wS" id="emK-nU-bOl"/>
+                            <outlet property="delegate" destination="Ps0-fk-1wS" id="9Gf-5c-3mW"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0JR-uf-pP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810" y="315"/>
+        </scene>
+    </scenes>
+</document>

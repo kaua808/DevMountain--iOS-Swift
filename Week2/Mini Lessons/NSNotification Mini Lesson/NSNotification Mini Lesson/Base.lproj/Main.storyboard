@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V6C-4C-era">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="CvT-6V-2rG">
+            <objects>
+                <viewController id="txe-B7-oKr" customClass="DetailViewController1" customModule="NSNotification_Mini_Lesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fj1-DU-Qow"/>
+                        <viewControllerLayoutGuide type="bottom" id="JLX-Fo-SqT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9o6-XE-q0w">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1M-7M-c0H">
+                                <rect key="frame" x="271" y="289" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T1M-7M-c0H" firstAttribute="centerY" secondItem="9o6-XE-q0w" secondAttribute="centerY" id="0jY-76-vUu"/>
+                            <constraint firstItem="T1M-7M-c0H" firstAttribute="centerX" secondItem="9o6-XE-q0w" secondAttribute="centerX" id="Hnz-FI-BFg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="dHr-aV-l6c"/>
+                    <connections>
+                        <outlet property="notificationLabel" destination="T1M-7M-c0H" id="fHn-Bd-tLC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46H-y0-FuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="470"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="wlQ-XE-rSC">
+            <objects>
+                <viewController id="veA-yn-OJH" customClass="DetailViewController2" customModule="NSNotification_Mini_Lesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GKW-Kp-lI3"/>
+                        <viewControllerLayoutGuide type="bottom" id="73h-rn-WaK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3qG-MS-fFx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Still Waiting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIf-ji-Ku3">
+                                <rect key="frame" x="255" y="289" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hIf-ji-Ku3" firstAttribute="centerX" secondItem="3qG-MS-fFx" secondAttribute="centerX" id="93h-R3-u2u"/>
+                            <constraint firstItem="hIf-ji-Ku3" firstAttribute="centerY" secondItem="3qG-MS-fFx" secondAttribute="centerY" id="jKk-rx-Bb8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="1jV-96-Ush"/>
+                    <connections>
+                        <outlet property="notificationLabel" destination="hIf-ji-Ku3" id="sfI-Io-ETJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMe-Fj-jmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-202" y="931"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="zW9-BQ-2Ts">
+            <objects>
+                <viewController id="1T0-Yf-tsK" customClass="ViewController" customModule="NSNotification_Mini_Lesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ECG-SP-oZy"/>
+                        <viewControllerLayoutGuide type="bottom" id="sK7-CM-Bi0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tO6-jc-VWb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qo-ng-SdP">
+                                <rect key="frame" x="279" y="285" width="42" height="30"/>
+                                <state key="normal" title="Notify"/>
+                                <connections>
+                                    <action selector="notifyButtonPressed:" destination="1T0-Yf-tsK" eventType="touchUpInside" id="9Lw-IP-Iau"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjA-oo-Jn9">
+                                <rect key="frame" x="253" y="335" width="94" height="30"/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeColorButton:" destination="1T0-Yf-tsK" eventType="touchUpInside" id="RnD-7x-97H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1qo-ng-SdP" firstAttribute="centerX" secondItem="tO6-jc-VWb" secondAttribute="centerX" id="AJT-id-syt"/>
+                            <constraint firstItem="jjA-oo-Jn9" firstAttribute="top" secondItem="1qo-ng-SdP" secondAttribute="bottom" constant="20" id="LgB-BU-dr2"/>
+                            <constraint firstItem="1qo-ng-SdP" firstAttribute="centerY" secondItem="tO6-jc-VWb" secondAttribute="centerY" id="ShM-iB-og6"/>
+                            <constraint firstItem="jjA-oo-Jn9" firstAttribute="centerX" secondItem="1qo-ng-SdP" secondAttribute="centerX" id="TOJ-WD-WLh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="ra2-RX-jcA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MX0-hO-ckU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="-191"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5lC-Jo-GRk">
+            <objects>
+                <tabBarController id="V6C-4C-era" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yRP-7A-Th5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1T0-Yf-tsK" kind="relationship" relationship="viewControllers" id="Wwu-NP-C6e"/>
+                        <segue destination="txe-B7-oKr" kind="relationship" relationship="viewControllers" id="4NS-O0-9dX"/>
+                        <segue destination="veA-yn-OJH" kind="relationship" relationship="viewControllers" id="osO-kc-S9P"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIp-Gw-oJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-202" y="140"/>
+        </scene>
+    </scenes>
+</document>

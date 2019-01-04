@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E7CE71C6A7FFE006F97EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E7CE61C6A7FFE006F97EF /* AppDelegate.swift */; };
+		C47E7CE91C6A7FFE006F97EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E7CE81C6A7FFE006F97EF /* ViewController.swift */; };
+		C47E7CEC1C6A7FFE006F97EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E7CEA1C6A7FFE006F97EF /* Main.storyboard */; };
+		C47E7CEE1C6A7FFE006F97EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E7CED1C6A7FFE006F97EF /* Assets.xcassets */; };
+		C47E7CF11C6A7FFE006F97EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47E7CEF1C6A7FFE006F97EF /* LaunchScreen.storyboard */; };
+		C47E7CF91C6A8152006F97EF /* DetailViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E7CF81C6A8152006F97EF /* DetailViewController1.swift */; };
+		C47E7CFB1C6A815E006F97EF /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E7CFA1C6A815E006F97EF /* DetailViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C47E7CE31C6A7FFE006F97EF /* NSNotification Mini Lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSNotification Mini Lesson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E7CE61C6A7FFE006F97EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47E7CE81C6A7FFE006F97EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C47E7CEB1C6A7FFE006F97EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47E7CED1C6A7FFE006F97EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47E7CF01C6A7FFE006F97EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47E7CF21C6A7FFE006F97EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E7CF81C6A8152006F97EF /* DetailViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController1.swift; sourceTree = "<group>"; };
+		C47E7CFA1C6A815E006F97EF /* DetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E7CE01C6A7FFD006F97EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E7CDA1C6A7FFD006F97EF = {
+			isa = PBXGroup;
+			children = (
+				C47E7CE51C6A7FFE006F97EF /* NSNotification Mini Lesson */,
+				C47E7CE41C6A7FFE006F97EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E7CE41C6A7FFE006F97EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E7CE31C6A7FFE006F97EF /* NSNotification Mini Lesson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E7CE51C6A7FFE006F97EF /* NSNotification Mini Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				C47E7CE61C6A7FFE006F97EF /* AppDelegate.swift */,
+				C47E7CE81C6A7FFE006F97EF /* ViewController.swift */,
+				C47E7CF81C6A8152006F97EF /* DetailViewController1.swift */,
+				C47E7CFA1C6A815E006F97EF /* DetailViewController2.swift */,
+				C47E7CEA1C6A7FFE006F97EF /* Main.storyboard */,
+				C47E7CED1C6A7FFE006F97EF /* Assets.xcassets */,
+				C47E7CEF1C6A7FFE006F97EF /* LaunchScreen.storyboard */,
+				C47E7CF21C6A7FFE006F97EF /* Info.plist */,
+			);
+			path = "NSNotification Mini Lesson";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E7CE21C6A7FFD006F97EF /* NSNotification Mini Lesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E7CF51C6A7FFE006F97EF /* Build configuration list for PBXNativeTarget "NSNotification Mini Lesson" */;
+			buildPhases = (
+				C47E7CDF1C6A7FFD006F97EF /* Sources */,
+				C47E7CE01C6A7FFD006F97EF /* Frameworks */,
+				C47E7CE11C6A7FFD006F97EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSNotification Mini Lesson";
+			productName = "NSNotification Mini Lesson";
+			productReference = C47E7CE31C6A7FFE006F97EF /* NSNotification Mini Lesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E7CDB1C6A7FFD006F97EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C47E7CE21C6A7FFD006F97EF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C47E7CDE1C6A7FFD006F97EF /* Build configuration list for PBXProject "NSNotification Mini Lesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47E7CDA1C6A7FFD006F97EF;
+			productRefGroup = C47E7CE41C6A7FFE006F97EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E7CE21C6A7FFD006F97EF /* NSNotification Mini Lesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E7CE11C6A7FFD006F97EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E7CF11C6A7FFE006F97EF /* LaunchScreen.storyboard in Resources */,
+				C47E7CEE1C6A7FFE006F97EF /* Assets.xcassets in Resources */,
+				C47E7CEC1C6A7FFE006F97EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E7CDF1C6A7FFD006F97EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E7CF91C6A8152006F97EF /* DetailViewController1.swift in Sources */,
+				C47E7CE91C6A7FFE006F97EF /* ViewController.swift in Sources */,
+				C47E7CFB1C6A815E006F97EF /* DetailViewController2.swift in Sources */,
+				C47E7CE71C6A7FFE006F97EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C47E7CEA1C6A7FFE006F97EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E7CEB1C6A7FFE006F97EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47E7CEF1C6A7FFE006F97EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E7CF01C6A7FFE006F97EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47E7CF31C6A7FFE006F97EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C47E7CF41C6A7FFE006F97EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47E7CF61C6A7FFE006F97EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSNotification Mini Lesson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.NSNotification-Mini-Lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47E7CF71C6A7FFE006F97EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSNotification Mini Lesson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.NSNotification-Mini-Lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E7CDE1C6A7FFD006F97EF /* Build configuration list for PBXProject "NSNotification Mini Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E7CF31C6A7FFE006F97EF /* Debug */,
+				C47E7CF41C6A7FFE006F97EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E7CF51C6A7FFE006F97EF /* Build configuration list for PBXNativeTarget "NSNotification Mini Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E7CF61C6A7FFE006F97EF /* Debug */,
+				C47E7CF71C6A7FFE006F97EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47E7CDB1C6A7FFD006F97EF /* Project object */;
+}

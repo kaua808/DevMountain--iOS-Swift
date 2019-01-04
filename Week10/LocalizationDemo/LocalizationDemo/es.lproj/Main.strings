@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "KLm-UZ-s5V"; */
+"KLm-UZ-s5V.placeholder" = "Contraseńa";
+
+/* Class = "UILabel"; text = "What does this button do?"; ObjectID = "VxJ-4H-92C"; */
+"VxJ-4H-92C.text" = "El botton solo presemta uma alerta?";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Xzs-CW-jN4"; */
+"Xzs-CW-jN4.placeholder" = "Correo electronico";
+
+/* Class = "UIButton"; normalTitle = "Discover"; ObjectID = "iVx-kH-Zn0"; */
+"iVx-kH-Zn0.normalTitle" = "Discubre";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "pIY-fP-VHV"; */
+"pIY-fP-VHV.normalTitle" = "iniciar sesion";

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45217161CC932670085B8EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217151CC932670085B8EA /* main.m */; };
+		C45217191CC932670085B8EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217181CC932670085B8EA /* AppDelegate.m */; };
+		C452171C1CC932670085B8EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C452171B1CC932670085B8EA /* ViewController.m */; };
+		C452171F1CC932670085B8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C452171D1CC932670085B8EA /* Main.storyboard */; };
+		C45217211CC932670085B8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45217201CC932670085B8EA /* Assets.xcassets */; };
+		C45217241CC932670085B8EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45217221CC932670085B8EA /* LaunchScreen.storyboard */; };
+		C452172F1CC932670085B8EA /* PlaylistObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C452172E1CC932670085B8EA /* PlaylistObjCTests.m */; };
+		C452173A1CC932670085B8EA /* PlaylistObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217391CC932670085B8EA /* PlaylistObjCUITests.m */; };
+		C45217491CC933190085B8EA /* PlaylistTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217481CC933190085B8EA /* PlaylistTableTableViewController.m */; };
+		C452174C1CC933330085B8EA /* DetailPlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C452174B1CC933330085B8EA /* DetailPlaylistTableViewController.m */; };
+		C452174F1CC935920085B8EA /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = C452174E1CC935920085B8EA /* Playlist.m */; };
+		C45217521CC935D00085B8EA /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217511CC935D00085B8EA /* Song.m */; };
+		C45217551CC940A90085B8EA /* PlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45217541CC940A90085B8EA /* PlaylistController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C452172B1CC932670085B8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45217091CC932660085B8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45217101CC932670085B8EA;
+			remoteInfo = PlaylistObjC;
+		};
+		C45217361CC932670085B8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45217091CC932660085B8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45217101CC932670085B8EA;
+			remoteInfo = PlaylistObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C45217111CC932670085B8EA /* PlaylistObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45217151CC932670085B8EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C45217171CC932670085B8EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C45217181CC932670085B8EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C452171A1CC932670085B8EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C452171B1CC932670085B8EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C452171E1CC932670085B8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45217201CC932670085B8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45217231CC932670085B8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45217251CC932670085B8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C452172A1CC932670085B8EA /* PlaylistObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C452172E1CC932670085B8EA /* PlaylistObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistObjCTests.m; sourceTree = "<group>"; };
+		C45217301CC932670085B8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45217351CC932670085B8EA /* PlaylistObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45217391CC932670085B8EA /* PlaylistObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistObjCUITests.m; sourceTree = "<group>"; };
+		C452173B1CC932670085B8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45217471CC933190085B8EA /* PlaylistTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistTableTableViewController.h; sourceTree = "<group>"; };
+		C45217481CC933190085B8EA /* PlaylistTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistTableTableViewController.m; sourceTree = "<group>"; };
+		C452174A1CC933330085B8EA /* DetailPlaylistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlaylistTableViewController.h; sourceTree = "<group>"; };
+		C452174B1CC933330085B8EA /* DetailPlaylistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaylistTableViewController.m; sourceTree = "<group>"; };
+		C452174D1CC935920085B8EA /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		C452174E1CC935920085B8EA /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+		C45217501CC935D00085B8EA /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		C45217511CC935D00085B8EA /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		C45217531CC940A90085B8EA /* PlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistController.h; sourceTree = "<group>"; };
+		C45217541CC940A90085B8EA /* PlaylistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C452170E1CC932670085B8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217271CC932670085B8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217321CC932670085B8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45217081CC932660085B8EA = {
+			isa = PBXGroup;
+			children = (
+				C45217131CC932670085B8EA /* PlaylistObjC */,
+				C452172D1CC932670085B8EA /* PlaylistObjCTests */,
+				C45217381CC932670085B8EA /* PlaylistObjCUITests */,
+				C45217121CC932670085B8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45217121CC932670085B8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45217111CC932670085B8EA /* PlaylistObjC.app */,
+				C452172A1CC932670085B8EA /* PlaylistObjCTests.xctest */,
+				C45217351CC932670085B8EA /* PlaylistObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45217131CC932670085B8EA /* PlaylistObjC */ = {
+			isa = PBXGroup;
+			children = (
+				C45217171CC932670085B8EA /* AppDelegate.h */,
+				C45217181CC932670085B8EA /* AppDelegate.m */,
+				C452171A1CC932670085B8EA /* ViewController.h */,
+				C452171B1CC932670085B8EA /* ViewController.m */,
+				C452171D1CC932670085B8EA /* Main.storyboard */,
+				C45217501CC935D00085B8EA /* Song.h */,
+				C45217511CC935D00085B8EA /* Song.m */,
+				C452174D1CC935920085B8EA /* Playlist.h */,
+				C452174E1CC935920085B8EA /* Playlist.m */,
+				C45217531CC940A90085B8EA /* PlaylistController.h */,
+				C45217541CC940A90085B8EA /* PlaylistController.m */,
+				C452174A1CC933330085B8EA /* DetailPlaylistTableViewController.h */,
+				C452174B1CC933330085B8EA /* DetailPlaylistTableViewController.m */,
+				C45217471CC933190085B8EA /* PlaylistTableTableViewController.h */,
+				C45217481CC933190085B8EA /* PlaylistTableTableViewController.m */,
+				C45217201CC932670085B8EA /* Assets.xcassets */,
+				C45217221CC932670085B8EA /* LaunchScreen.storyboard */,
+				C45217251CC932670085B8EA /* Info.plist */,
+				C45217141CC932670085B8EA /* Supporting Files */,
+			);
+			path = PlaylistObjC;
+			sourceTree = "<group>";
+		};
+		C45217141CC932670085B8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45217151CC932670085B8EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C452172D1CC932670085B8EA /* PlaylistObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C452172E1CC932670085B8EA /* PlaylistObjCTests.m */,
+				C45217301CC932670085B8EA /* Info.plist */,
+			);
+			path = PlaylistObjCTests;
+			sourceTree = "<group>";
+		};
+		C45217381CC932670085B8EA /* PlaylistObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C45217391CC932670085B8EA /* PlaylistObjCUITests.m */,
+				C452173B1CC932670085B8EA /* Info.plist */,
+			);
+			path = PlaylistObjCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45217101CC932670085B8EA /* PlaylistObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C452173E1CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjC" */;
+			buildPhases = (
+				C452170D1CC932670085B8EA /* Sources */,
+				C452170E1CC932670085B8EA /* Frameworks */,
+				C452170F1CC932670085B8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaylistObjC;
+			productName = PlaylistObjC;
+			productReference = C45217111CC932670085B8EA /* PlaylistObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45217291CC932670085B8EA /* PlaylistObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45217411CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjCTests" */;
+			buildPhases = (
+				C45217261CC932670085B8EA /* Sources */,
+				C45217271CC932670085B8EA /* Frameworks */,
+				C45217281CC932670085B8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C452172C1CC932670085B8EA /* PBXTargetDependency */,
+			);
+			name = PlaylistObjCTests;
+			productName = PlaylistObjCTests;
+			productReference = C452172A1CC932670085B8EA /* PlaylistObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C45217341CC932670085B8EA /* PlaylistObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45217441CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjCUITests" */;
+			buildPhases = (
+				C45217311CC932670085B8EA /* Sources */,
+				C45217321CC932670085B8EA /* Frameworks */,
+				C45217331CC932670085B8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45217371CC932670085B8EA /* PBXTargetDependency */,
+			);
+			name = PlaylistObjCUITests;
+			productName = PlaylistObjCUITests;
+			productReference = C45217351CC932670085B8EA /* PlaylistObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45217091CC932660085B8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C45217101CC932670085B8EA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C45217291CC932670085B8EA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C45217101CC932670085B8EA;
+					};
+					C45217341CC932670085B8EA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C45217101CC932670085B8EA;
+					};
+				};
+			};
+			buildConfigurationList = C452170C1CC932660085B8EA /* Build configuration list for PBXProject "PlaylistObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45217081CC932660085B8EA;
+			productRefGroup = C45217121CC932670085B8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45217101CC932670085B8EA /* PlaylistObjC */,
+				C45217291CC932670085B8EA /* PlaylistObjCTests */,
+				C45217341CC932670085B8EA /* PlaylistObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C452170F1CC932670085B8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45217241CC932670085B8EA /* LaunchScreen.storyboard in Resources */,
+				C45217211CC932670085B8EA /* Assets.xcassets in Resources */,
+				C452171F1CC932670085B8EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217281CC932670085B8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217331CC932670085B8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C452170D1CC932670085B8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45217521CC935D00085B8EA /* Song.m in Sources */,
+				C452174C1CC933330085B8EA /* DetailPlaylistTableViewController.m in Sources */,
+				C452174F1CC935920085B8EA /* Playlist.m in Sources */,
+				C452171C1CC932670085B8EA /* ViewController.m in Sources */,
+				C45217191CC932670085B8EA /* AppDelegate.m in Sources */,
+				C45217551CC940A90085B8EA /* PlaylistController.m in Sources */,
+				C45217491CC933190085B8EA /* PlaylistTableTableViewController.m in Sources */,
+				C45217161CC932670085B8EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217261CC932670085B8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452172F1CC932670085B8EA /* PlaylistObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45217311CC932670085B8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452173A1CC932670085B8EA /* PlaylistObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C452172C1CC932670085B8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45217101CC932670085B8EA /* PlaylistObjC */;
+			targetProxy = C452172B1CC932670085B8EA /* PBXContainerItemProxy */;
+		};
+		C45217371CC932670085B8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45217101CC932670085B8EA /* PlaylistObjC */;
+			targetProxy = C45217361CC932670085B8EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C452171D1CC932670085B8EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C452171E1CC932670085B8EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45217221CC932670085B8EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45217231CC932670085B8EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C452173C1CC932670085B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C452173D1CC932670085B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C452173F1CC932670085B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaylistObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45217401CC932670085B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaylistObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C45217421CC932670085B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaylistObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaylistObjC.app/PlaylistObjC";
+			};
+			name = Debug;
+		};
+		C45217431CC932670085B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaylistObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaylistObjC.app/PlaylistObjC";
+			};
+			name = Release;
+		};
+		C45217451CC932670085B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaylistObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaylistObjC;
+			};
+			name = Debug;
+		};
+		C45217461CC932670085B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaylistObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.PlaylistObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaylistObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C452170C1CC932660085B8EA /* Build configuration list for PBXProject "PlaylistObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C452173C1CC932670085B8EA /* Debug */,
+				C452173D1CC932670085B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C452173E1CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C452173F1CC932670085B8EA /* Debug */,
+				C45217401CC932670085B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C45217411CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45217421CC932670085B8EA /* Debug */,
+				C45217431CC932670085B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C45217441CC932670085B8EA /* Build configuration list for PBXNativeTarget "PlaylistObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45217451CC932670085B8EA /* Debug */,
+				C45217461CC932670085B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45217091CC932660085B8EA /* Project object */;
+}

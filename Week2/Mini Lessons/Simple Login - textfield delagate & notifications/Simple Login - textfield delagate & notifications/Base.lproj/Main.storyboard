@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Simple_Login___textfield_delagate___notifications" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q5S-Cu-6f7">
+                                <rect key="frame" x="20" y="134" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0bw-ne-FWZ"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HIU-7S-qXZ">
+                                <rect key="frame" x="20" y="240" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="b5T-Fj-FDp"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxt-c8-1Wm">
+                                <rect key="frame" x="277" y="330" width="47" height="30"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yiC-Qg-KnA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAe-3K-Ni8">
+                                <rect key="frame" x="239" y="550" width="123" height="30"/>
+                                <state key="normal" title="Forgot Password?"/>
+                                <connections>
+                                    <action selector="forgotPasswordTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B22-1p-XF9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HIU-7S-qXZ" firstAttribute="top" secondItem="Q5S-Cu-6f7" secondAttribute="bottom" constant="76" id="0ES-d8-HIL"/>
+                            <constraint firstItem="Kxt-c8-1Wm" firstAttribute="top" secondItem="HIU-7S-qXZ" secondAttribute="bottom" constant="60" id="1Xr-AH-mMl"/>
+                            <constraint firstItem="Kxt-c8-1Wm" firstAttribute="centerX" secondItem="HIU-7S-qXZ" secondAttribute="centerX" id="2RP-AX-aP3"/>
+                            <constraint firstItem="HIU-7S-qXZ" firstAttribute="leading" secondItem="Q5S-Cu-6f7" secondAttribute="leading" id="58U-9a-9Wu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kAe-3K-Ni8" secondAttribute="bottom" constant="20" id="C8I-3L-cyT"/>
+                            <constraint firstItem="HIU-7S-qXZ" firstAttribute="width" secondItem="Q5S-Cu-6f7" secondAttribute="width" id="Cic-sa-3hR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q5S-Cu-6f7" secondAttribute="trailing" id="UuI-bu-yqJ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Q5S-Cu-6f7" secondAttribute="leading" id="XMR-ke-2GE"/>
+                            <constraint firstItem="Q5S-Cu-6f7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="naQ-jB-geD"/>
+                            <constraint firstItem="kAe-3K-Ni8" firstAttribute="top" secondItem="Kxt-c8-1Wm" secondAttribute="bottom" constant="190" id="qSU-TS-6JC"/>
+                            <constraint firstItem="kAe-3K-Ni8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vWU-Xs-9Lk"/>
+                            <constraint firstItem="HIU-7S-qXZ" firstAttribute="trailing" secondItem="Q5S-Cu-6f7" secondAttribute="trailing" id="zXc-Jr-FXX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qSU-TS-6JC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="Q5S-Cu-6f7" id="a0a-5B-HUx"/>
+                        <outlet property="passwordField" destination="HIU-7S-qXZ" id="Tgt-iZ-L6m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="313"/>
+        </scene>
+    </scenes>
+</document>

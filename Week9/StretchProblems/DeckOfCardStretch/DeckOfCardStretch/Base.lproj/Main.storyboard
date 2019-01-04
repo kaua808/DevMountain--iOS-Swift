@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VMy-33-pMw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DeckOfCardStretch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNj-Om-zS6">
+                                <rect key="frame" x="255" y="285" width="90" height="30"/>
+                                <state key="normal" title="See My Deck"/>
+                                <connections>
+                                    <segue destination="3yI-Vf-yxt" kind="show" identifier="toDeck" id="73r-dn-kk1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wNj-Om-zS6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="32l-mY-yKg"/>
+                            <constraint firstItem="wNj-Om-zS6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ttL-D9-03y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TjQ-Gu-pVv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1092" y="241"/>
+        </scene>
+        <!--Deck Collection View Controller-->
+        <scene sceneID="ZQD-w5-m5p">
+            <objects>
+                <collectionViewController id="3yI-Vf-yxt" customClass="DeckCollectionViewController" customModule="DeckOfCardStretch" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GJU-iW-zQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BSU-2b-HuS">
+                            <size key="itemSize" width="210" height="259"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cardCell" id="id5-Wx-2AX" customClass="CardCollectionViewCell" customModule="DeckOfCardStretch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="210" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="210" height="259"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lmp-bC-6ns">
+                                            <rect key="frame" x="25" y="0.0" width="160" height="214"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqi-pe-zbk">
+                                            <rect key="frame" x="84" y="224" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="lmp-bC-6ns" secondAttribute="trailing" constant="17" id="3Qr-aU-uxl"/>
+                                    <constraint firstItem="Zqi-pe-zbk" firstAttribute="top" secondItem="lmp-bC-6ns" secondAttribute="bottom" constant="10" id="V4a-HW-umR"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="Zqi-pe-zbk" secondAttribute="bottom" constant="6" id="ZdJ-nI-Mhq"/>
+                                    <constraint firstItem="Zqi-pe-zbk" firstAttribute="centerX" secondItem="lmp-bC-6ns" secondAttribute="centerX" id="ggd-A4-oqy"/>
+                                    <constraint firstItem="lmp-bC-6ns" firstAttribute="top" secondItem="id5-Wx-2AX" secondAttribute="topMargin" constant="-8" id="mde-jQ-E9U"/>
+                                    <constraint firstItem="lmp-bC-6ns" firstAttribute="leading" secondItem="id5-Wx-2AX" secondAttribute="leadingMargin" constant="17" id="un0-fh-gGX"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="cardImage" destination="lmp-bC-6ns" id="VXN-o8-dWz"/>
+                                    <outlet property="cardLabel" destination="Zqi-pe-zbk" id="ibQ-wx-Sf9"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="3yI-Vf-yxt" id="qrQ-uo-F7z"/>
+                            <outlet property="delegate" destination="3yI-Vf-yxt" id="LY1-Qa-5yX"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p9N-2y-HOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1743" y="241"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mTK-7N-PAM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VMy-33-pMw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2kI-RE-DGn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YsM-Bu-c2G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTf-xF-9kt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="335" y="-451"/>
+        </scene>
+    </scenes>
+</document>

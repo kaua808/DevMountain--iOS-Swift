@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45FD9B01CD2704400B79F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9AF1CD2704400B79F95 /* AppDelegate.swift */; };
+		C45FD9B51CD2704400B79F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45FD9B31CD2704400B79F95 /* Main.storyboard */; };
+		C45FD9B71CD2704400B79F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45FD9B61CD2704400B79F95 /* Assets.xcassets */; };
+		C45FD9BA1CD2704400B79F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45FD9B81CD2704400B79F95 /* LaunchScreen.storyboard */; };
+		C45FD9C51CD2704400B79F95 /* FirebaseRestaurantListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9C41CD2704400B79F95 /* FirebaseRestaurantListTests.swift */; };
+		C45FD9D01CD2704400B79F95 /* FirebaseRestaurantListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9CF1CD2704400B79F95 /* FirebaseRestaurantListUITests.swift */; };
+		C45FD9DE1CD270A000B79F95 /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9DD1CD270A000B79F95 /* RestaurantListTableViewController.swift */; };
+		C45FD9E01CD2710B00B79F95 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9DF1CD2710A00B79F95 /* Restaurant.swift */; };
+		C45FD9E21CD271A200B79F95 /* RestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9E11CD271A200B79F95 /* RestaurantController.swift */; };
+		C45FD9E41CD27D0400B79F95 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9E31CD27D0400B79F95 /* Firebase.framework */; };
+		C45FD9E81CD27DBA00B79F95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9E71CD27DBA00B79F95 /* Security.framework */; };
+		C45FD9EA1CD27DC800B79F95 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9E91CD27DC800B79F95 /* SystemConfiguration.framework */; };
+		C45FD9EC1CD27DD800B79F95 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9EB1CD27DD800B79F95 /* libicucore.tbd */; };
+		C45FD9EE1CD27DE100B79F95 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9ED1CD27DE100B79F95 /* libc++.tbd */; };
+		C45FD9F01CD27DF400B79F95 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45FD9EF1CD27DF400B79F95 /* CFNetwork.framework */; };
+		C45FD9F31CD27EC100B79F95 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FD9F21CD27EC100B79F95 /* FirebaseController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45FD9C11CD2704400B79F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45FD9A41CD2704400B79F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45FD9AB1CD2704400B79F95;
+			remoteInfo = FirebaseRestaurantList;
+		};
+		C45FD9CC1CD2704400B79F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45FD9A41CD2704400B79F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45FD9AB1CD2704400B79F95;
+			remoteInfo = FirebaseRestaurantList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C45FD9E61CD27D0400B79F95 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C45FD9AC1CD2704400B79F95 /* FirebaseRestaurantList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRestaurantList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FD9AF1CD2704400B79F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45FD9B41CD2704400B79F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45FD9B61CD2704400B79F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45FD9B91CD2704400B79F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45FD9BB1CD2704400B79F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45FD9C01CD2704400B79F95 /* FirebaseRestaurantListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseRestaurantListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FD9C41CD2704400B79F95 /* FirebaseRestaurantListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRestaurantListTests.swift; sourceTree = "<group>"; };
+		C45FD9C61CD2704400B79F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45FD9CB1CD2704400B79F95 /* FirebaseRestaurantListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseRestaurantListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FD9CF1CD2704400B79F95 /* FirebaseRestaurantListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRestaurantListUITests.swift; sourceTree = "<group>"; };
+		C45FD9D11CD2704500B79F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45FD9DD1CD270A000B79F95 /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewController.swift; sourceTree = "<group>"; };
+		C45FD9DF1CD2710A00B79F95 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		C45FD9E11CD271A200B79F95 /* RestaurantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantController.swift; sourceTree = "<group>"; };
+		C45FD9E31CD27D0400B79F95 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		C45FD9E71CD27DBA00B79F95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C45FD9E91CD27DC800B79F95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C45FD9EB1CD27DD800B79F95 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		C45FD9ED1CD27DE100B79F95 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C45FD9EF1CD27DF400B79F95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C45FD9F21CD27EC100B79F95 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45FD9A91CD2704400B79F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FD9F01CD27DF400B79F95 /* CFNetwork.framework in Frameworks */,
+				C45FD9EE1CD27DE100B79F95 /* libc++.tbd in Frameworks */,
+				C45FD9EC1CD27DD800B79F95 /* libicucore.tbd in Frameworks */,
+				C45FD9EA1CD27DC800B79F95 /* SystemConfiguration.framework in Frameworks */,
+				C45FD9E81CD27DBA00B79F95 /* Security.framework in Frameworks */,
+				C45FD9E41CD27D0400B79F95 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9BD1CD2704400B79F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9C81CD2704400B79F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45FD9A31CD2704400B79F95 = {
+			isa = PBXGroup;
+			children = (
+				C45FD9AE1CD2704400B79F95 /* FirebaseRestaurantList */,
+				C45FD9C31CD2704400B79F95 /* FirebaseRestaurantListTests */,
+				C45FD9CE1CD2704400B79F95 /* FirebaseRestaurantListUITests */,
+				C45FD9AD1CD2704400B79F95 /* Products */,
+				C45FD9F11CD27E2000B79F95 /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		C45FD9AD1CD2704400B79F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45FD9AC1CD2704400B79F95 /* FirebaseRestaurantList.app */,
+				C45FD9C01CD2704400B79F95 /* FirebaseRestaurantListTests.xctest */,
+				C45FD9CB1CD2704400B79F95 /* FirebaseRestaurantListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45FD9AE1CD2704400B79F95 /* FirebaseRestaurantList */ = {
+			isa = PBXGroup;
+			children = (
+				C45FD9AF1CD2704400B79F95 /* AppDelegate.swift */,
+				C45FD9B31CD2704400B79F95 /* Main.storyboard */,
+				C45FD9DF1CD2710A00B79F95 /* Restaurant.swift */,
+				C45FD9F21CD27EC100B79F95 /* FirebaseController.swift */,
+				C45FD9E11CD271A200B79F95 /* RestaurantController.swift */,
+				C45FD9DD1CD270A000B79F95 /* RestaurantListTableViewController.swift */,
+				C45FD9B61CD2704400B79F95 /* Assets.xcassets */,
+				C45FD9B81CD2704400B79F95 /* LaunchScreen.storyboard */,
+				C45FD9BB1CD2704400B79F95 /* Info.plist */,
+			);
+			path = FirebaseRestaurantList;
+			sourceTree = "<group>";
+		};
+		C45FD9C31CD2704400B79F95 /* FirebaseRestaurantListTests */ = {
+			isa = PBXGroup;
+			children = (
+				C45FD9C41CD2704400B79F95 /* FirebaseRestaurantListTests.swift */,
+				C45FD9C61CD2704400B79F95 /* Info.plist */,
+			);
+			path = FirebaseRestaurantListTests;
+			sourceTree = "<group>";
+		};
+		C45FD9CE1CD2704400B79F95 /* FirebaseRestaurantListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C45FD9CF1CD2704400B79F95 /* FirebaseRestaurantListUITests.swift */,
+				C45FD9D11CD2704500B79F95 /* Info.plist */,
+			);
+			path = FirebaseRestaurantListUITests;
+			sourceTree = "<group>";
+		};
+		C45FD9F11CD27E2000B79F95 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C45FD9EF1CD27DF400B79F95 /* CFNetwork.framework */,
+				C45FD9ED1CD27DE100B79F95 /* libc++.tbd */,
+				C45FD9EB1CD27DD800B79F95 /* libicucore.tbd */,
+				C45FD9E91CD27DC800B79F95 /* SystemConfiguration.framework */,
+				C45FD9E71CD27DBA00B79F95 /* Security.framework */,
+				C45FD9E31CD27D0400B79F95 /* Firebase.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45FD9AB1CD2704400B79F95 /* FirebaseRestaurantList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45FD9D41CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantList" */;
+			buildPhases = (
+				C45FD9A81CD2704400B79F95 /* Sources */,
+				C45FD9A91CD2704400B79F95 /* Frameworks */,
+				C45FD9AA1CD2704400B79F95 /* Resources */,
+				C45FD9E61CD27D0400B79F95 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseRestaurantList;
+			productName = FirebaseRestaurantList;
+			productReference = C45FD9AC1CD2704400B79F95 /* FirebaseRestaurantList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45FD9BF1CD2704400B79F95 /* FirebaseRestaurantListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45FD9D71CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantListTests" */;
+			buildPhases = (
+				C45FD9BC1CD2704400B79F95 /* Sources */,
+				C45FD9BD1CD2704400B79F95 /* Frameworks */,
+				C45FD9BE1CD2704400B79F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45FD9C21CD2704400B79F95 /* PBXTargetDependency */,
+			);
+			name = FirebaseRestaurantListTests;
+			productName = FirebaseRestaurantListTests;
+			productReference = C45FD9C01CD2704400B79F95 /* FirebaseRestaurantListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C45FD9CA1CD2704400B79F95 /* FirebaseRestaurantListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45FD9DA1CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantListUITests" */;
+			buildPhases = (
+				C45FD9C71CD2704400B79F95 /* Sources */,
+				C45FD9C81CD2704400B79F95 /* Frameworks */,
+				C45FD9C91CD2704400B79F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45FD9CD1CD2704400B79F95 /* PBXTargetDependency */,
+			);
+			name = FirebaseRestaurantListUITests;
+			productName = FirebaseRestaurantListUITests;
+			productReference = C45FD9CB1CD2704400B79F95 /* FirebaseRestaurantListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45FD9A41CD2704400B79F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C45FD9AB1CD2704400B79F95 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+					C45FD9BF1CD2704400B79F95 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = C45FD9AB1CD2704400B79F95;
+					};
+					C45FD9CA1CD2704400B79F95 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = C45FD9AB1CD2704400B79F95;
+					};
+				};
+			};
+			buildConfigurationList = C45FD9A71CD2704400B79F95 /* Build configuration list for PBXProject "FirebaseRestaurantList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45FD9A31CD2704400B79F95;
+			productRefGroup = C45FD9AD1CD2704400B79F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45FD9AB1CD2704400B79F95 /* FirebaseRestaurantList */,
+				C45FD9BF1CD2704400B79F95 /* FirebaseRestaurantListTests */,
+				C45FD9CA1CD2704400B79F95 /* FirebaseRestaurantListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45FD9AA1CD2704400B79F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FD9BA1CD2704400B79F95 /* LaunchScreen.storyboard in Resources */,
+				C45FD9B71CD2704400B79F95 /* Assets.xcassets in Resources */,
+				C45FD9B51CD2704400B79F95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9BE1CD2704400B79F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9C91CD2704400B79F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45FD9A81CD2704400B79F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FD9F31CD27EC100B79F95 /* FirebaseController.swift in Sources */,
+				C45FD9E01CD2710B00B79F95 /* Restaurant.swift in Sources */,
+				C45FD9DE1CD270A000B79F95 /* RestaurantListTableViewController.swift in Sources */,
+				C45FD9B01CD2704400B79F95 /* AppDelegate.swift in Sources */,
+				C45FD9E21CD271A200B79F95 /* RestaurantController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9BC1CD2704400B79F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FD9C51CD2704400B79F95 /* FirebaseRestaurantListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FD9C71CD2704400B79F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FD9D01CD2704400B79F95 /* FirebaseRestaurantListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45FD9C21CD2704400B79F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45FD9AB1CD2704400B79F95 /* FirebaseRestaurantList */;
+			targetProxy = C45FD9C11CD2704400B79F95 /* PBXContainerItemProxy */;
+		};
+		C45FD9CD1CD2704400B79F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45FD9AB1CD2704400B79F95 /* FirebaseRestaurantList */;
+			targetProxy = C45FD9CC1CD2704400B79F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45FD9B31CD2704400B79F95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45FD9B41CD2704400B79F95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45FD9B81CD2704400B79F95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45FD9B91CD2704400B79F95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45FD9D21CD2704500B79F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45FD9D31CD2704500B79F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45FD9D51CD2704500B79F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseRestaurantList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C45FD9D61CD2704500B79F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseRestaurantList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C45FD9D81CD2704500B79F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseRestaurantListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseRestaurantList.app/FirebaseRestaurantList";
+			};
+			name = Debug;
+		};
+		C45FD9D91CD2704500B79F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseRestaurantListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseRestaurantList.app/FirebaseRestaurantList";
+			};
+			name = Release;
+		};
+		C45FD9DB1CD2704500B79F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirebaseRestaurantListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseRestaurantList;
+			};
+			name = Debug;
+		};
+		C45FD9DC1CD2704500B79F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirebaseRestaurantListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.FirebaseRestaurantListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseRestaurantList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45FD9A71CD2704400B79F95 /* Build configuration list for PBXProject "FirebaseRestaurantList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FD9D21CD2704500B79F95 /* Debug */,
+				C45FD9D31CD2704500B79F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45FD9D41CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FD9D51CD2704500B79F95 /* Debug */,
+				C45FD9D61CD2704500B79F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45FD9D71CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FD9D81CD2704500B79F95 /* Debug */,
+				C45FD9D91CD2704500B79F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45FD9DA1CD2704500B79F95 /* Build configuration list for PBXNativeTarget "FirebaseRestaurantListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FD9DB1CD2704500B79F95 /* Debug */,
+				C45FD9DC1CD2704500B79F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45FD9A41CD2704400B79F95 /* Project object */;
+}

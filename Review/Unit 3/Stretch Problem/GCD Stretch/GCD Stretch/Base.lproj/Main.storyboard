@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GCD_Stretch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ctf-F1-ARO">
+                                <rect key="frame" x="0.0" y="384" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="482684793.39610398">
+                                    <!--2016-04-18 15:06:33 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTv-kF-uI9">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlh-dQ-bor">
+                                <rect key="frame" x="277" y="225" width="47" height="30"/>
+                                <state key="normal" title="Freeze"/>
+                                <connections>
+                                    <action selector="freezeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HEi-2h-wlh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ctf-F1-ARO" secondAttribute="trailing" id="Ggc-Jq-cor"/>
+                            <constraint firstItem="ctf-F1-ARO" firstAttribute="top" secondItem="rTv-kF-uI9" secondAttribute="bottom" constant="74" id="PDv-9g-fqD"/>
+                            <constraint firstItem="ctf-F1-ARO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tcx-uC-1kd"/>
+                            <constraint firstItem="rTv-kF-uI9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VUC-xR-Th1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ctf-F1-ARO" secondAttribute="bottom" id="bNt-qh-Hl9"/>
+                            <constraint firstItem="rTv-kF-uI9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="efP-dz-yIa"/>
+                            <constraint firstItem="nlh-dQ-bor" firstAttribute="centerX" secondItem="rTv-kF-uI9" secondAttribute="centerX" id="sxx-MO-t80"/>
+                            <constraint firstItem="rTv-kF-uI9" firstAttribute="top" secondItem="nlh-dQ-bor" secondAttribute="bottom" constant="34" id="uNU-La-Wyu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="rTv-kF-uI9" id="Nze-Wo-Qbz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

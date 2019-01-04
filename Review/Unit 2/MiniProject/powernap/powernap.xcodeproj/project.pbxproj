@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4988EE81CBD57B900779313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988EE71CBD57B900779313 /* AppDelegate.swift */; };
+		C4988EEA1CBD57B900779313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988EE91CBD57B900779313 /* ViewController.swift */; };
+		C4988EED1CBD57B900779313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4988EEB1CBD57B900779313 /* Main.storyboard */; };
+		C4988EEF1CBD57B900779313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4988EEE1CBD57B900779313 /* Assets.xcassets */; };
+		C4988EF21CBD57B900779313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4988EF01CBD57B900779313 /* LaunchScreen.storyboard */; };
+		C4988EFD1CBD57BA00779313 /* powernapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988EFC1CBD57BA00779313 /* powernapTests.swift */; };
+		C4988F081CBD57BA00779313 /* powernapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988F071CBD57BA00779313 /* powernapUITests.swift */; };
+		C4988F161CBD58C000779313 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988F151CBD58C000779313 /* Timer.swift */; };
+		C4988F181CBD58C800779313 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4988F171CBD58C800779313 /* TimerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4988EF91CBD57BA00779313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4988EDC1CBD57B900779313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4988EE31CBD57B900779313;
+			remoteInfo = powernap;
+		};
+		C4988F041CBD57BA00779313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4988EDC1CBD57B900779313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4988EE31CBD57B900779313;
+			remoteInfo = powernap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4988EE41CBD57B900779313 /* powernap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = powernap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4988EE71CBD57B900779313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4988EE91CBD57B900779313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4988EEC1CBD57B900779313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4988EEE1CBD57B900779313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4988EF11CBD57B900779313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4988EF31CBD57B900779313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4988EF81CBD57BA00779313 /* powernapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powernapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4988EFC1CBD57BA00779313 /* powernapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powernapTests.swift; sourceTree = "<group>"; };
+		C4988EFE1CBD57BA00779313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4988F031CBD57BA00779313 /* powernapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powernapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4988F071CBD57BA00779313 /* powernapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powernapUITests.swift; sourceTree = "<group>"; };
+		C4988F091CBD57BA00779313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4988F151CBD58C000779313 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		C4988F171CBD58C800779313 /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4988EE11CBD57B900779313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988EF51CBD57BA00779313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988F001CBD57BA00779313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4988EDB1CBD57B900779313 = {
+			isa = PBXGroup;
+			children = (
+				C4988EE61CBD57B900779313 /* powernap */,
+				C4988EFB1CBD57BA00779313 /* powernapTests */,
+				C4988F061CBD57BA00779313 /* powernapUITests */,
+				C4988EE51CBD57B900779313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4988EE51CBD57B900779313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4988EE41CBD57B900779313 /* powernap.app */,
+				C4988EF81CBD57BA00779313 /* powernapTests.xctest */,
+				C4988F031CBD57BA00779313 /* powernapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4988EE61CBD57B900779313 /* powernap */ = {
+			isa = PBXGroup;
+			children = (
+				C4988EE71CBD57B900779313 /* AppDelegate.swift */,
+				C4988EE91CBD57B900779313 /* ViewController.swift */,
+				C4988F151CBD58C000779313 /* Timer.swift */,
+				C4988F171CBD58C800779313 /* TimerController.swift */,
+				C4988EEB1CBD57B900779313 /* Main.storyboard */,
+				C4988EEE1CBD57B900779313 /* Assets.xcassets */,
+				C4988EF01CBD57B900779313 /* LaunchScreen.storyboard */,
+				C4988EF31CBD57B900779313 /* Info.plist */,
+			);
+			path = powernap;
+			sourceTree = "<group>";
+		};
+		C4988EFB1CBD57BA00779313 /* powernapTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4988EFC1CBD57BA00779313 /* powernapTests.swift */,
+				C4988EFE1CBD57BA00779313 /* Info.plist */,
+			);
+			path = powernapTests;
+			sourceTree = "<group>";
+		};
+		C4988F061CBD57BA00779313 /* powernapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4988F071CBD57BA00779313 /* powernapUITests.swift */,
+				C4988F091CBD57BA00779313 /* Info.plist */,
+			);
+			path = powernapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4988EE31CBD57B900779313 /* powernap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4988F0C1CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernap" */;
+			buildPhases = (
+				C4988EE01CBD57B900779313 /* Sources */,
+				C4988EE11CBD57B900779313 /* Frameworks */,
+				C4988EE21CBD57B900779313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = powernap;
+			productName = powernap;
+			productReference = C4988EE41CBD57B900779313 /* powernap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4988EF71CBD57BA00779313 /* powernapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4988F0F1CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernapTests" */;
+			buildPhases = (
+				C4988EF41CBD57BA00779313 /* Sources */,
+				C4988EF51CBD57BA00779313 /* Frameworks */,
+				C4988EF61CBD57BA00779313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4988EFA1CBD57BA00779313 /* PBXTargetDependency */,
+			);
+			name = powernapTests;
+			productName = powernapTests;
+			productReference = C4988EF81CBD57BA00779313 /* powernapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4988F021CBD57BA00779313 /* powernapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4988F121CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernapUITests" */;
+			buildPhases = (
+				C4988EFF1CBD57BA00779313 /* Sources */,
+				C4988F001CBD57BA00779313 /* Frameworks */,
+				C4988F011CBD57BA00779313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4988F051CBD57BA00779313 /* PBXTargetDependency */,
+			);
+			name = powernapUITests;
+			productName = powernapUITests;
+			productReference = C4988F031CBD57BA00779313 /* powernapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4988EDC1CBD57B900779313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C4988EE31CBD57B900779313 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C4988EF71CBD57BA00779313 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4988EE31CBD57B900779313;
+					};
+					C4988F021CBD57BA00779313 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C4988EE31CBD57B900779313;
+					};
+				};
+			};
+			buildConfigurationList = C4988EDF1CBD57B900779313 /* Build configuration list for PBXProject "powernap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4988EDB1CBD57B900779313;
+			productRefGroup = C4988EE51CBD57B900779313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4988EE31CBD57B900779313 /* powernap */,
+				C4988EF71CBD57BA00779313 /* powernapTests */,
+				C4988F021CBD57BA00779313 /* powernapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4988EE21CBD57B900779313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4988EF21CBD57B900779313 /* LaunchScreen.storyboard in Resources */,
+				C4988EEF1CBD57B900779313 /* Assets.xcassets in Resources */,
+				C4988EED1CBD57B900779313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988EF61CBD57BA00779313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988F011CBD57BA00779313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4988EE01CBD57B900779313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4988F161CBD58C000779313 /* Timer.swift in Sources */,
+				C4988F181CBD58C800779313 /* TimerController.swift in Sources */,
+				C4988EEA1CBD57B900779313 /* ViewController.swift in Sources */,
+				C4988EE81CBD57B900779313 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988EF41CBD57BA00779313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4988EFD1CBD57BA00779313 /* powernapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4988EFF1CBD57BA00779313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4988F081CBD57BA00779313 /* powernapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4988EFA1CBD57BA00779313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4988EE31CBD57B900779313 /* powernap */;
+			targetProxy = C4988EF91CBD57BA00779313 /* PBXContainerItemProxy */;
+		};
+		C4988F051CBD57BA00779313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4988EE31CBD57B900779313 /* powernap */;
+			targetProxy = C4988F041CBD57BA00779313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4988EEB1CBD57B900779313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4988EEC1CBD57B900779313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4988EF01CBD57B900779313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4988EF11CBD57B900779313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4988F0A1CBD57BA00779313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4988F0B1CBD57BA00779313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4988F0D1CBD57BA00779313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = powernap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4988F0E1CBD57BA00779313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = powernap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4988F101CBD57BA00779313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = powernapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powernap.app/powernap";
+			};
+			name = Debug;
+		};
+		C4988F111CBD57BA00779313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = powernapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powernap.app/powernap";
+			};
+			name = Release;
+		};
+		C4988F131CBD57BA00779313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = powernapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = powernap;
+			};
+			name = Debug;
+		};
+		C4988F141CBD57BA00779313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = powernapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaleo.powernapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = powernap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4988EDF1CBD57B900779313 /* Build configuration list for PBXProject "powernap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4988F0A1CBD57BA00779313 /* Debug */,
+				C4988F0B1CBD57BA00779313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4988F0C1CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4988F0D1CBD57BA00779313 /* Debug */,
+				C4988F0E1CBD57BA00779313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4988F0F1CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4988F101CBD57BA00779313 /* Debug */,
+				C4988F111CBD57BA00779313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4988F121CBD57BA00779313 /* Build configuration list for PBXNativeTarget "powernapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4988F131CBD57BA00779313 /* Debug */,
+				C4988F141CBD57BA00779313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4988EDC1CBD57B900779313 /* Project object */;
+}

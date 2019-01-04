@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C436367A1C60197000DF0E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43636791C60197000DF0E4B /* AppDelegate.swift */; };
+		C436367C1C60197000DF0E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C436367B1C60197000DF0E4B /* ViewController.swift */; };
+		C436367F1C60197000DF0E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C436367D1C60197000DF0E4B /* Main.storyboard */; };
+		C43636811C60197000DF0E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43636801C60197000DF0E4B /* Assets.xcassets */; };
+		C43636841C60197000DF0E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43636821C60197000DF0E4B /* LaunchScreen.storyboard */; };
+		C436368F1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C436368E1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelTests.swift */; };
+		C436369A1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43636991C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C436368B1C60197000DF0E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C436366E1C60197000DF0E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43636751C60197000DF0E4B;
+			remoteInfo = "Day1 challenge - display name and edit label";
+		};
+		C43636961C60197000DF0E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C436366E1C60197000DF0E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43636751C60197000DF0E4B;
+			remoteInfo = "Day1 challenge - display name and edit label";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43636761C60197000DF0E4B /* Day1 challenge - display name and edit label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day1 challenge - display name and edit label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43636791C60197000DF0E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C436367B1C60197000DF0E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C436367E1C60197000DF0E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43636801C60197000DF0E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43636831C60197000DF0E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43636851C60197000DF0E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C436368A1C60197000DF0E4B /* Day1 challenge - display name and edit labelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day1 challenge - display name and edit labelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C436368E1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1_challenge___display_name_and_edit_labelTests.swift"; sourceTree = "<group>"; };
+		C43636901C60197000DF0E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43636951C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day1 challenge - display name and edit labelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43636991C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1_challenge___display_name_and_edit_labelUITests.swift"; sourceTree = "<group>"; };
+		C436369B1C60197000DF0E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43636731C60197000DF0E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636871C60197000DF0E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636921C60197000DF0E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C436366D1C60197000DF0E4B = {
+			isa = PBXGroup;
+			children = (
+				C43636781C60197000DF0E4B /* Day1 challenge - display name and edit label */,
+				C436368D1C60197000DF0E4B /* Day1 challenge - display name and edit labelTests */,
+				C43636981C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests */,
+				C43636771C60197000DF0E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43636771C60197000DF0E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43636761C60197000DF0E4B /* Day1 challenge - display name and edit label.app */,
+				C436368A1C60197000DF0E4B /* Day1 challenge - display name and edit labelTests.xctest */,
+				C43636951C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43636781C60197000DF0E4B /* Day1 challenge - display name and edit label */ = {
+			isa = PBXGroup;
+			children = (
+				C43636791C60197000DF0E4B /* AppDelegate.swift */,
+				C436367B1C60197000DF0E4B /* ViewController.swift */,
+				C436367D1C60197000DF0E4B /* Main.storyboard */,
+				C43636801C60197000DF0E4B /* Assets.xcassets */,
+				C43636821C60197000DF0E4B /* LaunchScreen.storyboard */,
+				C43636851C60197000DF0E4B /* Info.plist */,
+			);
+			path = "Day1 challenge - display name and edit label";
+			sourceTree = "<group>";
+		};
+		C436368D1C60197000DF0E4B /* Day1 challenge - display name and edit labelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C436368E1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelTests.swift */,
+				C43636901C60197000DF0E4B /* Info.plist */,
+			);
+			path = "Day1 challenge - display name and edit labelTests";
+			sourceTree = "<group>";
+		};
+		C43636981C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C43636991C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelUITests.swift */,
+				C436369B1C60197000DF0E4B /* Info.plist */,
+			);
+			path = "Day1 challenge - display name and edit labelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43636751C60197000DF0E4B /* Day1 challenge - display name and edit label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C436369E1C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit label" */;
+			buildPhases = (
+				C43636721C60197000DF0E4B /* Sources */,
+				C43636731C60197000DF0E4B /* Frameworks */,
+				C43636741C60197000DF0E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day1 challenge - display name and edit label";
+			productName = "Day1 challenge - display name and edit label";
+			productReference = C43636761C60197000DF0E4B /* Day1 challenge - display name and edit label.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43636891C60197000DF0E4B /* Day1 challenge - display name and edit labelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43636A11C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit labelTests" */;
+			buildPhases = (
+				C43636861C60197000DF0E4B /* Sources */,
+				C43636871C60197000DF0E4B /* Frameworks */,
+				C43636881C60197000DF0E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C436368C1C60197000DF0E4B /* PBXTargetDependency */,
+			);
+			name = "Day1 challenge - display name and edit labelTests";
+			productName = "Day1 challenge - display name and edit labelTests";
+			productReference = C436368A1C60197000DF0E4B /* Day1 challenge - display name and edit labelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C43636941C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43636A41C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit labelUITests" */;
+			buildPhases = (
+				C43636911C60197000DF0E4B /* Sources */,
+				C43636921C60197000DF0E4B /* Frameworks */,
+				C43636931C60197000DF0E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43636971C60197000DF0E4B /* PBXTargetDependency */,
+			);
+			name = "Day1 challenge - display name and edit labelUITests";
+			productName = "Day1 challenge - display name and edit labelUITests";
+			productReference = C43636951C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C436366E1C60197000DF0E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C43636751C60197000DF0E4B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C43636891C60197000DF0E4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C43636751C60197000DF0E4B;
+					};
+					C43636941C60197000DF0E4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C43636751C60197000DF0E4B;
+					};
+				};
+			};
+			buildConfigurationList = C43636711C60197000DF0E4B /* Build configuration list for PBXProject "Day1 challenge - display name and edit label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C436366D1C60197000DF0E4B;
+			productRefGroup = C43636771C60197000DF0E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43636751C60197000DF0E4B /* Day1 challenge - display name and edit label */,
+				C43636891C60197000DF0E4B /* Day1 challenge - display name and edit labelTests */,
+				C43636941C60197000DF0E4B /* Day1 challenge - display name and edit labelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43636741C60197000DF0E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43636841C60197000DF0E4B /* LaunchScreen.storyboard in Resources */,
+				C43636811C60197000DF0E4B /* Assets.xcassets in Resources */,
+				C436367F1C60197000DF0E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636881C60197000DF0E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636931C60197000DF0E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43636721C60197000DF0E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C436367C1C60197000DF0E4B /* ViewController.swift in Sources */,
+				C436367A1C60197000DF0E4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636861C60197000DF0E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C436368F1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43636911C60197000DF0E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C436369A1C60197000DF0E4B /* Day1_challenge___display_name_and_edit_labelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C436368C1C60197000DF0E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43636751C60197000DF0E4B /* Day1 challenge - display name and edit label */;
+			targetProxy = C436368B1C60197000DF0E4B /* PBXContainerItemProxy */;
+		};
+		C43636971C60197000DF0E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43636751C60197000DF0E4B /* Day1 challenge - display name and edit label */;
+			targetProxy = C43636961C60197000DF0E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C436367D1C60197000DF0E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C436367E1C60197000DF0E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43636821C60197000DF0E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43636831C60197000DF0E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C436369C1C60197000DF0E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C436369D1C60197000DF0E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C436369F1C60197000DF0E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day1 challenge - display name and edit label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C43636A01C60197000DF0E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day1 challenge - display name and edit label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C43636A21C60197000DF0E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day1 challenge - display name and edit labelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-labelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day1 challenge - display name and edit label.app/Day1 challenge - display name and edit label";
+			};
+			name = Debug;
+		};
+		C43636A31C60197000DF0E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day1 challenge - display name and edit labelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-labelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day1 challenge - display name and edit label.app/Day1 challenge - display name and edit label";
+			};
+			name = Release;
+		};
+		C43636A51C60197000DF0E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Day1 challenge - display name and edit labelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-labelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Day1 challenge - display name and edit label";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C43636A61C60197000DF0E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Day1 challenge - display name and edit labelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaleo.Day1-challenge---display-name-and-edit-labelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Day1 challenge - display name and edit label";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43636711C60197000DF0E4B /* Build configuration list for PBXProject "Day1 challenge - display name and edit label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C436369C1C60197000DF0E4B /* Debug */,
+				C436369D1C60197000DF0E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C436369E1C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C436369F1C60197000DF0E4B /* Debug */,
+				C43636A01C60197000DF0E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C43636A11C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit labelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43636A21C60197000DF0E4B /* Debug */,
+				C43636A31C60197000DF0E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C43636A41C60197000DF0E4B /* Build configuration list for PBXNativeTarget "Day1 challenge - display name and edit labelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43636A51C60197000DF0E4B /* Debug */,
+				C43636A61C60197000DF0E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C436366E1C60197000DF0E4B /* Project object */;
+}
